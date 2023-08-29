@@ -1,6 +1,6 @@
 package com.proyectoIntegrador.consultorioOdontologico.dao.Impl;
 
-import com.proyectoIntegrador.consultorioOdontologico.dao.IOdontologoDAO;
+import com.proyectoIntegrador.consultorioOdontologico.dao.IDao;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.utils.SQLQueries;
 //import org.apache.log4j.Logger;
@@ -9,13 +9,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OdontologoDAOImplH2 implements IOdontologoDAO {
+public class OdontologoDaoH2 implements IDao {
 
     //private static final Logger LOGGER = Logger.getLogger(OdontologoDAOImplH2.class);
 
     private static Connection connection;
 
-    public OdontologoDAOImplH2(){
+    public OdontologoDaoH2(){
         try {
             Class.forName("org.h2.Driver");
             String url = "jdbc:h2:tcp://localhost/~/test";
@@ -36,7 +36,7 @@ public class OdontologoDAOImplH2 implements IOdontologoDAO {
     public void registrar(Odontologo odontologo) throws Exception {
         try(PreparedStatement statement = connection.prepareStatement(SQLQueries.INSERT_CUSTOM)){
             statement.setInt(1, odontologo.getId());
-            statement.setString(2,odontologo.getMatricula());
+            statement.setInt(2,odontologo.getMatricula());
             statement.setString(3,odontologo.getNombre());
             statement.setString(4,odontologo.getApellido());
             statement.execute();
@@ -55,7 +55,7 @@ public class OdontologoDAOImplH2 implements IOdontologoDAO {
             while (resultSet.next()){
                 Odontologo odontologo = new Odontologo();
                 odontologo.setId(resultSet.getInt(1));
-                odontologo.setMatricula(resultSet.getString(2));
+                odontologo.setMatricula(resultSet.getInt(2));
                 odontologo.setNombre(resultSet.getString(3));
                 odontologo.setApellido(resultSet.getString(4));
                 //LOG.info(resultSet.getInt(1));

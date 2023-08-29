@@ -1,7 +1,7 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
-import com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDAOImplArray;
-import com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDAOImplH2;
+import com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoArray;
+import com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 //import org.apache.log4j.Logger;
 //import org.junit.jupiter.api.Test;
@@ -15,14 +15,14 @@ class OdontologoServiceTest {
     //@Test
     public void registrarH2MalaMatricula() {
         //LOGGER.info("Testiando H2 con matricula erronea");
-        OdontologoDAOImplH2 odontologoDAO = new OdontologoDAOImplH2();
+        OdontologoDaoH2 odontologoDAO = new OdontologoDaoH2();
         OdontologoService odontologoService = new OdontologoService(odontologoDAO);
 
 
-        Odontologo odo1 = new Odontologo(1,"123", "Luis", "Curetti");
-        Odontologo odo2 = new Odontologo(2,"548", "Pedro", "Sanchez");
-        Odontologo odo3 = new Odontologo(3,"12", "Marcos", "Lopez");
-        Odontologo odo4 = new Odontologo(4,"698", "Brian", "Rodriguez");
+        Odontologo odo1 = new Odontologo(1,"Luis", "Curetti", 123);
+        Odontologo odo2 = new Odontologo(2, "Pedro", "Sanchez", 548);
+        Odontologo odo3 = new Odontologo(3,"Marcos", "Lopez", 32);
+        Odontologo odo4 = new Odontologo(4, "Brian", "Rodriguez", 698);
 
         odontologoService.registrar(odo1);
         odontologoService.registrar(odo2);
@@ -35,14 +35,14 @@ class OdontologoServiceTest {
     //@Test
     public void registrarArraySinNombreOApellido() {
         //LOGGER.info("Testiando Array con nombre o apellido vacios");
-        OdontologoDAOImplArray odontologoDAO = new OdontologoDAOImplArray();
+        OdontologoDaoArray odontologoDAO = new OdontologoDaoArray();
         OdontologoService odontologoService = new OdontologoService(odontologoDAO);
 
 
-        Odontologo odo1 = new Odontologo(1,"123", "Luis", "Curetti");
-        Odontologo odo2 = new Odontologo(2,"548", "", "Sanchez");
-        Odontologo odo3 = new Odontologo(3,"128", "Marcos", "Lopez");
-        Odontologo odo4 = new Odontologo(4,"698", "Brian", "");
+        Odontologo odo1 = new Odontologo(1, "Luis", "Curetti", 123);
+        Odontologo odo2 = new Odontologo(2, "", "Sanchez", 548);
+        Odontologo odo3 = new Odontologo(3, "Marcos", "Lopez", 128);
+        Odontologo odo4 = new Odontologo(4, "Brian", "", 698);
 
         odontologoService.registrar(odo1);
         odontologoService.registrar(odo2);

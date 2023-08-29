@@ -1,15 +1,15 @@
 package com.proyectoIntegrador.consultorioOdontologico.dao.Impl;
 
-import com.proyectoIntegrador.consultorioOdontologico.dao.IOdontologoDAO;
+import com.proyectoIntegrador.consultorioOdontologico.dao.IDao;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class OdontologoDAOImplArray implements IOdontologoDAO {
+public class OdontologoDaoArray implements IDao {
     private List<Odontologo> odontologos;
 
-    public OdontologoDAOImplArray() {
+    public OdontologoDaoArray() {
         odontologos = new ArrayList<Odontologo>();
     }
 

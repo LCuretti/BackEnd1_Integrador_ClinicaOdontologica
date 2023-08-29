@@ -1,10 +1,10 @@
 package com.proyectoIntegrador.consultorioOdontologico.entity;
 
 public class Odontologo {
-    private int id;
-    private String matricula;
+    private Integer id;
     private String nombre;
     private String apellido;
+    private Integer matricula;
 
     @Override
     public String toString() {
@@ -16,11 +16,17 @@ public class Odontologo {
                 '}';
     }
 
-    public Odontologo(int id, String matricula, String nombre, String apellido) {
+    public Odontologo(Integer id, String nombre, String apellido, Integer matricula) {
         this.id = id;
-        this.matricula = matricula;
         this.nombre = nombre;
         this.apellido = apellido;
+        this.matricula = matricula;
+    }
+
+    public Odontologo(String nombre, String apellido, Integer matricula) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.matricula = matricula;
     }
 
     public Odontologo() {
@@ -30,16 +36,8 @@ public class Odontologo {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getMatricula() {
-        return matricula;
-    }
-
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
     }
 
     public String getNombre() {
@@ -56,5 +54,12 @@ public class Odontologo {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+
+    public Integer getMatricula() {
+        return matricula;
+    }
+    public void setMatricula(Integer matricula) {
+        this.matricula = matricula;
     }
 }

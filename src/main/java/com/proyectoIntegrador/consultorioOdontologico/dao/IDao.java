@@ -4,7 +4,7 @@ import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 
 import java.util.List;
 
-public interface IOdontologoDAO {
+public interface IDao {
 
     public abstract void registrar(Odontologo odontologo) throws Exception;
 
