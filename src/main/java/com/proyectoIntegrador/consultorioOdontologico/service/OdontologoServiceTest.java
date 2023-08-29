@@ -1,7 +1,7 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
-import com.proyectoIntegrador.consultorioOdontologico.DAOs.Impl.OdontologoDAOImplArray;
-import com.proyectoIntegrador.consultorioOdontologico.DAOs.Impl.OdontologoDAOImplH2;
+import com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDAOImplArray;
+import com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDAOImplH2;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 //import org.apache.log4j.Logger;
 //import org.junit.jupiter.api.Test;

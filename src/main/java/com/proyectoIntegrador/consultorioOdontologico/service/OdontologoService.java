@@ -1,6 +1,6 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
-import com.proyectoIntegrador.consultorioOdontologico.DAOs.IOdontologoDAO;
+import com.proyectoIntegrador.consultorioOdontologico.dao.IOdontologoDAO;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 //import org.apache.log4j.Logger;
 

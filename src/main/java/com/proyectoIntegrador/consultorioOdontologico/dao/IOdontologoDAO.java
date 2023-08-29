@@ -1,4 +1,4 @@
-package com.proyectoIntegrador.consultorioOdontologico.DAOs;
+package com.proyectoIntegrador.consultorioOdontologico.dao;
 
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 

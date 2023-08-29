@@ -1,8 +1,8 @@
-package com.proyectoIntegrador.consultorioOdontologico.DAOs.Impl;
+package com.proyectoIntegrador.consultorioOdontologico.dao.Impl;
 
-import com.proyectoIntegrador.consultorioOdontologico.DAOs.IOdontologoDAO;
+import com.proyectoIntegrador.consultorioOdontologico.dao.IOdontologoDAO;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
-import com.proyectoIntegrador.consultorioOdontologico.Utils.SQLQueries;
+import com.proyectoIntegrador.consultorioOdontologico.utils.SQLQueries;
 //import org.apache.log4j.Logger;
 
 import java.sql.*;

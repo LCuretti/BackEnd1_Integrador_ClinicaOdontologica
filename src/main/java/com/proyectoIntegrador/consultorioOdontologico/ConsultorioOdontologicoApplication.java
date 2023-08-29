@@ -1,6 +1,6 @@
 package com.proyectoIntegrador.consultorioOdontologico;
 
-import com.proyectoIntegrador.consultorioOdontologico.DAOs.Impl.OdontologoDAOImplArray;
+import com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDAOImplArray;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService;
 import org.springframework.boot.SpringApplication;

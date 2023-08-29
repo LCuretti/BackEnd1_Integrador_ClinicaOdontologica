@@ -1,6 +1,6 @@
-package com.proyectoIntegrador.consultorioOdontologico.DAOs.Impl;
+package com.proyectoIntegrador.consultorioOdontologico.dao.Impl;
 
-import com.proyectoIntegrador.consultorioOdontologico.DAOs.IOdontologoDAO;
+import com.proyectoIntegrador.consultorioOdontologico.dao.IOdontologoDAO;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 
 import java.util.ArrayList;

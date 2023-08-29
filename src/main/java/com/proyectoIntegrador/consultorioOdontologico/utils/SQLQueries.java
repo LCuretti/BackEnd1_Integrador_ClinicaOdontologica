@@ -1,4 +1,4 @@
-package com.proyectoIntegrador.consultorioOdontologico.Utils;
+package com.proyectoIntegrador.consultorioOdontologico.utils;
 
 public class SQLQueries {
     public static final String CREATE_TABLES =
