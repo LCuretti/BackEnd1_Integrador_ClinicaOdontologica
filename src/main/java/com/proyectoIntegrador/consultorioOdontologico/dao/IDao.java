@@ -4,9 +4,16 @@ import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 
 import java.util.List;
 
-public interface IDao {
+public interface IDao<T> {
 
-    public abstract void registrar(Odontologo odontologo) throws Exception;
+    T registrar(T t) throws Exception;
 
-    public abstract List<Odontologo> listar() throws Exception;
+    List<T> listar() throws Exception;
+
+    //T buscar(Integer id);
+
+    //void eliminar(Integer id);
+
+    //T actualizar(T t);
+
 }

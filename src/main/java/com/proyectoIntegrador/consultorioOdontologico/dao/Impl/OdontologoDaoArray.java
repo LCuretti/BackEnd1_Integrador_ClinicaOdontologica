@@ -6,7 +6,7 @@ import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OdontologoDaoArray implements IDao {
+public class OdontologoDaoArray implements IDao<Odontologo> {
     private List<Odontologo> odontologos;
 
     public OdontologoDaoArray() {
@@ -14,8 +14,9 @@ public class OdontologoDaoArray implements IDao {
     }
 
     @Override
-    public void registrar(Odontologo odontologo){
+    public Odontologo registrar(Odontologo odontologo){
         odontologos.add(odontologo);
+        return odontologo;
     }
 
     @Override

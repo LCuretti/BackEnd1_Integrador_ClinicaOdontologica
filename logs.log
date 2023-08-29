@@ -70,3 +70,15 @@
 [2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
 [2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
 [2023-08-29 18:29:08] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 19:55:48] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 20:11:30] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:44] Intentando listar los odontologos

@@ -9,7 +9,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OdontologoDaoH2 implements IDao {
+public class OdontologoDaoH2 implements IDao<Odontologo> {
 
     private static final Logger LOGGER = Logger.getLogger(OdontologoDaoH2.class);
 
@@ -35,13 +35,14 @@ public class OdontologoDaoH2 implements IDao {
     }
 
     @Override
-    public void registrar(Odontologo odontologo) throws Exception {
+    public Odontologo registrar(Odontologo odontologo) throws Exception {
         try(PreparedStatement statement = connection.prepareStatement(SQLQueries.INSERT_CUSTOM)){
             statement.setInt(1, odontologo.getId());
             statement.setString(2,odontologo.getNombre());
             statement.setString(3,odontologo.getApellido());
             statement.setInt(4,odontologo.getMatricula());
             statement.execute();
+            return odontologo;
         }catch (Exception e){
             LOGGER.error("No se pudo persistir: " + odontologo,e);
             //System.out.println(e);
@@ -53,7 +54,7 @@ public class OdontologoDaoH2 implements IDao {
     @Override
     public List<Odontologo> listar() throws Exception {
         try(PreparedStatement statement = connection.prepareStatement(SQLQueries.LISTAR_ODONTOLOGOS)){
-            List<Odontologo> odontologos = new ArrayList<Odontologo>();
+            List<Odontologo> odontologos = new ArrayList<>();
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()){
                 Odontologo odontologo = new Odontologo();
@@ -73,8 +74,9 @@ public class OdontologoDaoH2 implements IDao {
             }
         catch (Exception e){
             LOGGER.error("Sucedio un error al listar odontologos",e);
-            System.out.println(e);
+            //System.out.println(e);
             throw new Exception("Error al listar odontologos");
         }
+
         }
     }
