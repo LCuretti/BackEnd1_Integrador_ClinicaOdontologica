@@ -3,7 +3,7 @@ package com.proyectoIntegrador.consultorioOdontologico.dao.Impl;
 import com.proyectoIntegrador.consultorioOdontologico.dao.IDao;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.utils.SQLQueries;
-//import org.apache.log4j.Logger;
+import org.apache.log4j.Logger;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.List;
 
 public class OdontologoDaoH2 implements IDao {
 
-    //private static final Logger LOGGER = Logger.getLogger(OdontologoDaoH2.class);
+    private static final Logger LOGGER = Logger.getLogger(OdontologoDaoH2.class);
 
     private static Connection connection;
 
@@ -25,12 +25,12 @@ public class OdontologoDaoH2 implements IDao {
                 s.execute(SQLQueries.CREATE_TABLES);
                 s.close();
                 } catch (SQLException e){
-                System.out.println(e);
-                //LOGGER.error("No se pudieron crear las tablas", e);
+                //System.out.println(e);
+                LOGGER.error("No se pudieron crear las tablas", e);
                 }
         } catch (Exception e) {
-            System.out.println(e);
-            //LOGGER.error("No se pudo crear el DAO", e);
+            //System.out.println(e);
+            LOGGER.error("No se pudo crear el DAO", e);
         }
     }
 
@@ -43,8 +43,8 @@ public class OdontologoDaoH2 implements IDao {
             statement.setInt(4,odontologo.getMatricula());
             statement.execute();
         }catch (Exception e){
-            //LOGGER.error("No se pudo persistir: " + odontologo,e);
-            System.out.println(e);
+            LOGGER.error("No se pudo persistir: " + odontologo,e);
+            //System.out.println(e);
             throw new Exception("Sucedio un error al persistir");
         }
 
@@ -64,7 +64,7 @@ public class OdontologoDaoH2 implements IDao {
                 //LOG.info(resultSet.getInt(1));
                 //LOG.info(resultSet.getString(2));
                 //LOG.info(resultSet.getString(3));
-                //LOG.info(resultSet.getString(4));
+                //LOG.info(resultSet.getInt(4));
                 System.out.println(odontologo);
                 odontologos.add(odontologo);
             }
@@ -72,7 +72,7 @@ public class OdontologoDaoH2 implements IDao {
             return odontologos;
             }
         catch (Exception e){
-            //LOGGER.error("Sucedio un error al listar odontologos",e);
+            LOGGER.error("Sucedio un error al listar odontologos",e);
             System.out.println(e);
             throw new Exception("Error al listar odontologos");
         }

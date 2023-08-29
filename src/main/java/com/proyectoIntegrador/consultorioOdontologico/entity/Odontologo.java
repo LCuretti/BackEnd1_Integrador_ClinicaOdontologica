@@ -10,9 +10,9 @@ public class Odontologo {
     public String toString() {
         return "Odontologo{" +
                 "ID=" + id +
-                ", Matricula=" + matricula +
                 ", Nombre=" + nombre +
                 ", Apellido=" + apellido +
+                ", Matricula=" + matricula +
                 '}';
     }
 
