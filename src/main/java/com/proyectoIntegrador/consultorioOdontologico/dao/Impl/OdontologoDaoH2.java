@@ -11,7 +11,7 @@ import java.util.List;
 
 public class OdontologoDaoH2 implements IDao {
 
-    //private static final Logger LOGGER = Logger.getLogger(OdontologoDAOImplH2.class);
+    //private static final Logger LOGGER = Logger.getLogger(OdontologoDaoH2.class);
 
     private static Connection connection;
 
@@ -25,9 +25,11 @@ public class OdontologoDaoH2 implements IDao {
                 s.execute(SQLQueries.CREATE_TABLES);
                 s.close();
                 } catch (SQLException e){
+                System.out.println(e);
                 //LOGGER.error("No se pudieron crear las tablas", e);
                 }
         } catch (Exception e) {
+            System.out.println(e);
             //LOGGER.error("No se pudo crear el DAO", e);
         }
     }
@@ -36,12 +38,13 @@ public class OdontologoDaoH2 implements IDao {
     public void registrar(Odontologo odontologo) throws Exception {
         try(PreparedStatement statement = connection.prepareStatement(SQLQueries.INSERT_CUSTOM)){
             statement.setInt(1, odontologo.getId());
-            statement.setInt(2,odontologo.getMatricula());
-            statement.setString(3,odontologo.getNombre());
-            statement.setString(4,odontologo.getApellido());
+            statement.setString(2,odontologo.getNombre());
+            statement.setString(3,odontologo.getApellido());
+            statement.setInt(4,odontologo.getMatricula());
             statement.execute();
         }catch (Exception e){
             //LOGGER.error("No se pudo persistir: " + odontologo,e);
+            System.out.println(e);
             throw new Exception("Sucedio un error al persistir");
         }
 
@@ -55,9 +58,9 @@ public class OdontologoDaoH2 implements IDao {
             while (resultSet.next()){
                 Odontologo odontologo = new Odontologo();
                 odontologo.setId(resultSet.getInt(1));
-                odontologo.setMatricula(resultSet.getInt(2));
-                odontologo.setNombre(resultSet.getString(3));
-                odontologo.setApellido(resultSet.getString(4));
+                odontologo.setNombre(resultSet.getString(2));
+                odontologo.setApellido(resultSet.getString(3));
+                odontologo.setMatricula(resultSet.getInt(4));
                 //LOG.info(resultSet.getInt(1));
                 //LOG.info(resultSet.getString(2));
                 //LOG.info(resultSet.getString(3));
@@ -70,6 +73,7 @@ public class OdontologoDaoH2 implements IDao {
             }
         catch (Exception e){
             //LOGGER.error("Sucedio un error al listar odontologos",e);
+            System.out.println(e);
             throw new Exception("Error al listar odontologos");
         }
         }

@@ -32,7 +32,7 @@ public class Odontologo {
     public Odontologo() {
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 

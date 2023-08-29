@@ -1,6 +1,7 @@
 package com.proyectoIntegrador.consultorioOdontologico;
 
 import com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoArray;
+import com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService;
 import org.springframework.boot.SpringApplication;
@@ -12,8 +13,8 @@ public class ConsultorioOdontologicoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ConsultorioOdontologicoApplication.class, args);
 
-		OdontologoDaoArray odontologoDAO = new OdontologoDaoArray();
-		//OdontologoDAOImplH2 odontologoDAO = new OdontologoDAOImplH2();
+		//OdontologoDaoArray odontologoDAO = new OdontologoDaoArray();
+		OdontologoDaoH2 odontologoDAO = new OdontologoDaoH2();
 
 		OdontologoService odontologoService = new OdontologoService(odontologoDAO);
 
