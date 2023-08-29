@@ -6,7 +6,9 @@ import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService;
 import org.junit.jupiter.api.Test;
 import org.apache.log4j.Logger;
-import static org.junit.jupiter.api.Assertions.*;
+
+//import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Assertions;
 
 class OdontologoServiceTest {
 
@@ -29,7 +31,10 @@ class OdontologoServiceTest {
         odontologoService.registrar(odo3);
         odontologoService.registrar(odo4);
 
-        assertEquals(3, OdontologoService.listar().size());
+        int cantidadOdontologos;
+        cantidadOdontologos = OdontologoService.listar().size();
+
+        Assertions.assertEquals(3, cantidadOdontologos);
     }
 
     @Test
@@ -49,7 +54,7 @@ class OdontologoServiceTest {
         odontologoService.registrar(odo3);
         odontologoService.registrar(odo4);
 
-        assertEquals(2, OdontologoService.listar().size());
+        Assertions.assertEquals(2, OdontologoService.listar().size());
     }
 
 }

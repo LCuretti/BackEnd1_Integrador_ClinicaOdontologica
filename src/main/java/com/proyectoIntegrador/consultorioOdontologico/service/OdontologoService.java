@@ -7,9 +7,9 @@ import org.apache.log4j.Logger;
 import java.util.List;
 
 public class OdontologoService {
-    private IDao odontologoDAO;
+    private static IDao odontologoDAO;
 
-    private Logger LOGGER = Logger.getLogger(OdontologoService.class);
+    private static Logger LOGGER = Logger.getLogger(OdontologoService.class);
 
     public OdontologoService(IDao odontologoDAO){ this.odontologoDAO = odontologoDAO;}
 
@@ -40,7 +40,7 @@ public class OdontologoService {
 
     }
 
-    public List<Odontologo> listar() {
+    public static List<Odontologo> listar() {
         LOGGER.info("Intentando listar los odontologos");
         List odontologos = null;
 

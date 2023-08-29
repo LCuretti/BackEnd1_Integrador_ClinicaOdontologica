@@ -10,3 +10,63 @@
 [2023-08-29 17:45:37] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
 [2023-08-29 17:45:37] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
 [2023-08-29 17:45:37] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:16:16] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:16:47] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:22:26] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:22:45] [ INFO ] [OdontologoServiceTest:19] Testiando H2 con matricula erronea
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=548}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=32}
+[2023-08-29 18:22:45] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:22:45] [ INFO ] [OdontologoServiceTest:42] Testiando Array con nombre o apellido vacios
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=, Apellido=Sanchez, Matricula=548}
+[2023-08-29 18:22:45] [ WARN ] [OdontologoService:24] Campo Nombre Vacio
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=128}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=, Matricula=698}
+[2023-08-29 18:22:45] [ WARN ] [OdontologoService:28] Campo Apellido Vacio
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:26:53] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:28:55] [ INFO ] [OdontologoServiceTest:19] Testiando H2 con matricula erronea
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=548}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=32}
+[2023-08-29 18:28:55] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:28:55] [ INFO ] [OdontologoServiceTest:42] Testiando Array con nombre o apellido vacios
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=, Apellido=Sanchez, Matricula=548}
+[2023-08-29 18:28:55] [ WARN ] [OdontologoService:24] Campo Nombre Vacio
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=128}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=, Matricula=698}
+[2023-08-29 18:28:55] [ WARN ] [OdontologoService:28] Campo Apellido Vacio
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:29:08] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:44] Intentando listar los odontologos

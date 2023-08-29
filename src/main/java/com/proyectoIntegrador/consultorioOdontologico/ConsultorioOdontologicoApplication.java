@@ -28,9 +28,8 @@ public class ConsultorioOdontologicoApplication {
 		odontologoService.registrar(odo3);
 		odontologoService.registrar(odo4);
 
+
 		odontologoService.listar();
-
-
 
 	}
 
