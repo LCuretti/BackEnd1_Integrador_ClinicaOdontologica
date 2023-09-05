@@ -2,7 +2,7 @@ window.addEventListener('load', function () {
 
 
     //Buscamos y obtenemos el formulario donde estan
-    //los datos que el usuario pudo haber modificado al turno
+    //los datos que el usuario pudo haber modificado del turno
     const formulario = document.querySelector('#update_turno_form');
 
     formulario.addEventListener('submit', function (event) {
