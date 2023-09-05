@@ -1,19 +1,13 @@
-package com.proyectoIntegrador.consultorioOdontologico.entity;
+package com.proyectoIntegrador.consultorioOdontologico.dto;
 
-import jakarta.persistence.*;
+import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
+import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 
 import java.util.Date;
-@Entity
-@Table(name="turnos")
-public class Turno {
-    @Id
-    @GeneratedValue
+
+public class TurnoDTO {
     private Integer id;
-    @ManyToOne
-    @JoinColumn(name="paciente_id", nullable = false)
     private Paciente paciente;
-    @ManyToOne
-    @JoinColumn(name="odontologo_id", nullable = false)
     private Odontologo odontologo;
     private Date fecha;
 
@@ -26,7 +20,6 @@ public class Turno {
                 ", fecha=" + fecha +
                 '}';
     }
-
     public Integer getId() {
         return id;
     }

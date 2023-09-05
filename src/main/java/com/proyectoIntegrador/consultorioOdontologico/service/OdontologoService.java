@@ -1,58 +1,65 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
-import com.proyectoIntegrador.consultorioOdontologico.dao.IDao;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO;
+import com.proyectoIntegrador.consultorioOdontologico.repository.IOdontologoRepository;
+
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
-import org.apache.log4j.Logger;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+
+import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
+import java.util.Set;
 
-public class OdontologoService {
-    private static IDao odontologoDAO;
+@Service
+public class OdontologoService implements IOdontologoService{
+    @Autowired
+    private IOdontologoRepository odontologoRepository;
 
-    private static Logger LOGGER = Logger.getLogger(OdontologoService.class);
+    @Autowired
+    ObjectMapper mapper;
 
-    public OdontologoService(IDao odontologoDAO){ this.odontologoDAO = odontologoDAO;}
 
-    public boolean registrar(Odontologo odontologo){
-        LOGGER.info("Intentando persistir al odontologo: " + odontologo);
-
-        if (odontologo.getMatricula().toString().length() < 3){
-            LOGGER.warn("Matricula Invalida");
-            return false;
-        }
-        if (odontologo.getNombre().isBlank()){
-            LOGGER.warn("Campo Nombre Vacio");
-            return false;
-        }
-        if (odontologo.getApellido().isBlank()){
-            LOGGER.warn("Campo Apellido Vacio");
-            return false;
-        }
-
-        try {
-            odontologoDAO.registrar(odontologo);
-        } catch (Exception e) {
-            LOGGER.error(e);
-            return false;
-        }
-
-        return true;
-
+    @Override
+    public void agregarOdontologo(OdontologoDTO odontologoDTO) {
+        guardarOdontologo(odontologoDTO);
     }
 
-    public static List<Odontologo> listar() {
-        LOGGER.info("Intentando listar los odontologos");
-        List odontologos = null;
-
-        try {
-            odontologos = odontologoDAO.listar();
-        } catch (Exception e) {
-            LOGGER.error(e);
-        }
-
-        return odontologos;
+    @Override
+    public OdontologoDTO leerOdontologo(Integer id) {
+        Optional<Odontologo> odontologo = odontologoRepository.findById(id);
+        OdontologoDTO odontologoDTO = null;
+        if(odontologo.isPresent())
+            odontologoDTO = mapper.convertValue(odontologo, OdontologoDTO.class);
+        return odontologoDTO;
     }
 
+    private void guardarOdontologo(OdontologoDTO odontologoDTO){
+        Odontologo odontologo = mapper.convertValue(odontologoDTO, Odontologo.class);
+        odontologoRepository.save(odontologo);
+    }
+    @Override
+    public void modificarOdontologo(OdontologoDTO odontologoDTO) {
+        guardarOdontologo(odontologoDTO);
+    }
 
+    @Override
+    public void eliminarOdontologo(Integer id) {
+        odontologoRepository.deleteById(id);
+    }
 
+    @Override
+    public Set<OdontologoDTO> listarOdontologos() {
+        List<Odontologo> odontologos= odontologoRepository.findAll();
+        Set<OdontologoDTO> odontologosDTO = new HashSet<>();
+        for(Odontologo odontologo: odontologos){
+            odontologosDTO.add(mapper.convertValue(odontologo, OdontologoDTO.class));
+        }
+        return odontologosDTO;
+
+    }
 }

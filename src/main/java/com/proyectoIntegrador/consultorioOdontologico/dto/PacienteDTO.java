@@ -1,46 +1,14 @@
-package com.proyectoIntegrador.consultorioOdontologico.entity;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
+package com.proyectoIntegrador.consultorioOdontologico.dto;
 
 import java.util.Date;
-import java.util.Set;
-@Entity
-@Table(name="pacientes")
-public class Paciente {
-    @Id
-    @GeneratedValue
+
+public class PacienteDTO {
     private Integer id;
     private String nombre;
     private String apellido;
     private String domicilio;
     private String dni;
     private Date fechaIngreso;
-
-    @OneToMany(mappedBy = "paciente")
-    @JsonIgnore
-    private Set<Turno> turnos;
-
-
-    @Override
-    public String toString() {
-        return "Paciente{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", dni='" + dni + '\'' +
-                ", fechaIngreso=" + fechaIngreso +
-                ", domicilio=" + domicilio +
-                '}';
-    }
-
-    public Set<Turno> getTurnos() {
-        return turnos;
-    }
-
-    public void setTurnos(Set<Turno> turnos) {
-        this.turnos = turnos;
-    }
 
 
     public Integer getId() {

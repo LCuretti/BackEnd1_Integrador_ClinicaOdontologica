@@ -1,35 +1,40 @@
 package com.proyectoIntegrador.consultorioOdontologico.entity;
 
+import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.*;
+
+@Entity
+@Table(name="odontologos")
 public class Odontologo {
+    @Id
+    @GeneratedValue
     private Integer id;
-    private String nombre;
     private String apellido;
+    private String nombre;
     private Integer matricula;
+
+    @OneToMany(mappedBy="odontologo")
+    @JsonIgnore
+    private Set<Turno> turnos;
 
     @Override
     public String toString() {
         return "Odontologo{" +
-                "ID=" + id +
-                ", Nombre=" + nombre +
-                ", Apellido=" + apellido +
-                ", Matricula=" + matricula +
+                "id=" + id +
+                ", apellido='" + apellido + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", matricula='" + matricula +
                 '}';
     }
 
-    public Odontologo(Integer id, String nombre, String apellido, Integer matricula) {
-        this.id = id;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.matricula = matricula;
+    public Set<Turno> getTurnos() {
+        return turnos;
     }
 
-    public Odontologo(String nombre, String apellido, Integer matricula) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.matricula = matricula;
-    }
-
-    public Odontologo() {
+    public void setTurnos(Set<Turno> turnos) {
+        this.turnos = turnos;
     }
 
     public Integer getId() {
@@ -40,6 +45,13 @@ public class Odontologo {
         this.id = id;
     }
 
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
     public String getNombre() {
         return nombre;
     }
@@ -48,17 +60,12 @@ public class Odontologo {
         this.nombre = nombre;
     }
 
-    public String getApellido() {
-        return apellido;
-    }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
 
     public Integer getMatricula() {
         return matricula;
     }
+
     public void setMatricula(Integer matricula) {
         this.matricula = matricula;
     }
