@@ -17,7 +17,7 @@ public class Paciente {
     private String dni;
     private Date fechaIngreso;
 
-    @OneToMany(mappedBy = "paciente")
+    @OneToMany(mappedBy = "paciente", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonIgnore
     private Set<Turno> turnos;
 

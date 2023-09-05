@@ -315,3 +315,40 @@ insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?) [23506-
 [2023-09-05 16:41:16] [ INFO ] [TurnoController:53] Buscando todos los turnos
 [2023-09-05 16:41:26] [ INFO ] [TurnoController:53] Buscando todos los turnos
 [2023-09-05 16:41:30] [ INFO ] [TurnoController:47] Eliminando turno con id: 1702
+[2023-09-05 18:29:17] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:29:28] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-214]] [delete from odontologos where id=?]; SQL [delete from odontologos where id=?]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-09-05 18:33:44] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:34:23] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo
+[2023-09-05 18:34:26] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:34:57] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo
+[2023-09-05 18:35:11] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:36:24] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 18:37:22] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 18:37:25] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:39:33] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:39:42] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 18:40:24] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:40:46] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 18:40:56] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 19:30:07] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:31:57] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:32:16] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 19:32:24] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:32:32] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 19:33:37] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2152)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2152)"; SQL statement:
+insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?) [23506-214]] [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; SQL [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]
+[2023-09-05 19:37:43] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:38:22] [ INFO ] [TurnoController:25] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=2203, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1752, apellido='null', nombre='null', matricula='null}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-05 19:38:27] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:38:56] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2203)"
+Referential integrity constraint violation: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2203)"; SQL statement:
+delete from pacientes where id=? [23503-214]] [delete from pacientes where id=?]; SQL [delete from pacientes where id=?]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2203)"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-09-05 19:47:11] [ INFO ] [TurnoController:25] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=2252, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1802, apellido='null', nombre='null', matricula='null}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-05 19:47:27] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:47:56] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:48:25] [ INFO ] [TurnoController:53] Buscando todos los turnos
