@@ -1,14 +1,16 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
-import com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO;
 
-import java.util.Set;
+import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
+
+import java.util.List;
+
 
 public interface IPacienteService {
-    void agregarPaciente(PacienteDTO pacienteDTO);
-    PacienteDTO leerPaciente(Integer id);
-    void modificarPaciente(PacienteDTO pacienteDTO);
+    void agregarPaciente(Paciente paciente);
+    Paciente leerPaciente(Integer id);
+    void modificarPaciente(Paciente paciente);
     void eliminarPaciente(Integer id);
-    Set<PacienteDTO> listarPacientes();
+    List<Paciente> listarPacientes();
 
 }

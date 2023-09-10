@@ -1,8 +1,7 @@
-
 package com.proyectoIntegrador.consultorioOdontologico;
 
 
-import com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO;
+import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 import com.proyectoIntegrador.consultorioOdontologico.service.IPacienteService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,11 +18,11 @@ class PacienteServiceTest {
     @Test
     public void testAgregarPaciente(){
 
-        PacienteDTO pacienteDTO = new PacienteDTO();
-        pacienteDTO.setNombre("Raul");
-        pacienteDTO.setApellido("Perez");
-        pacienteService.agregarPaciente(pacienteDTO);
-        PacienteDTO pacienteRaul = pacienteService.leerPaciente(1);
+        Paciente paciente = new Paciente();
+        paciente.setNombre("Raul");
+        paciente.setApellido("Perez");
+        pacienteService.agregarPaciente(paciente);
+        Paciente pacienteRaul = pacienteService.leerPaciente(1);
         assertTrue(pacienteRaul != null);
     }
 }

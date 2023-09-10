@@ -15,7 +15,7 @@ public class Odontologo {
     private String nombre;
     private Integer matricula;
 
-    @OneToMany(mappedBy="odontologo", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy="odontologo", cascade = CascadeType.REMOVE)
     @JsonIgnore
     private Set<Turno> turnos;
 
