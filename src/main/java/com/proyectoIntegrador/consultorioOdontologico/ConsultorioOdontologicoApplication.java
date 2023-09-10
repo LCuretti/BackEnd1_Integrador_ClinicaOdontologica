@@ -11,9 +11,7 @@ public class ConsultorioOdontologicoApplication {
 		PropertyConfigurator.configure("log4j.properties");
 		SpringApplication.run(ConsultorioOdontologicoApplication.class, args);
 
-		//crear un set de odontologos pacientes y turno
 
-	// es una prueba para comitear
 	}
 
 }
