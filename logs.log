@@ -377,3 +377,6 @@ delete from pacientes where id=? [23503-214]]
 [2023-09-09 22:23:02] [ INFO ] [TurnoController:25] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=3252, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3252, apellido='null', nombre='null', matricula='null}, fecha=Thu Sep 14 21:00:00 ART 1978}
 [2023-09-09 22:23:04] [ INFO ] [TurnoController:53] Buscando todos los turnos
 [2023-09-10 08:08:54] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-10 09:39:05] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+[2023-09-10 09:40:17] [ ERROR] [GlobalExceptionHandler:16] Cannot deserialize value of type `java.time.LocalDate` from String "1976-09-15T00:00:00.000+00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '1976-09-15T00:00:00.000+00:00' could not be parsed, unparsed text found at index 23
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente["fechaIngreso"])
