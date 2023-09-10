@@ -1,6 +1,7 @@
 package com.proyectoIntegrador.consultorioOdontologico.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.proyectoIntegrador.consultorioOdontologico.dto.CrearPacienteDTO;
 import com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 import com.proyectoIntegrador.consultorioOdontologico.service.IPacienteService;
@@ -23,7 +24,7 @@ public class PacienteController {
     @Autowired
     ObjectMapper mapper;
     @PostMapping
-    public ResponseEntity<?> agregarPaciente(@RequestBody PacienteDTO pacienteDTO){
+    public ResponseEntity<?> agregarPaciente(@RequestBody CrearPacienteDTO pacienteDTO){
         pacienteService.agregarPaciente(mapper.convertValue(pacienteDTO, Paciente.class));
         return ResponseEntity.ok(HttpStatus.OK);
     }

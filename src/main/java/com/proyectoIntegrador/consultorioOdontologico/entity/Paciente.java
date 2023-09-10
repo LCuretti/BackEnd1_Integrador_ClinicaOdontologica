@@ -3,6 +3,7 @@ package com.proyectoIntegrador.consultorioOdontologico.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.Set;
 @Entity
@@ -15,7 +16,7 @@ public class Paciente {
     private String apellido;
     private String domicilio;
     private String dni;
-    private Date fechaIngreso;
+    private LocalDate fechaIngreso;
 
     @OneToMany(mappedBy = "paciente", cascade = CascadeType.REMOVE)
     @JsonIgnore
@@ -83,11 +84,11 @@ public class Paciente {
         this.dni = dni;
     }
 
-    public Date getFechaIngreso() {
+    public LocalDate getFechaIngreso() {
         return fechaIngreso;
     }
 
-    public void setFechaIngreso(Date fechaIngreso) {
+    public void setFechaIngreso(LocalDate fechaIngreso) {
         this.fechaIngreso = fechaIngreso;
     }
 }

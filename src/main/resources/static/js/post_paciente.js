@@ -13,7 +13,6 @@ window.addEventListener('load', function () {
             apellido: document.querySelector('#apellido').value,
             dni: document.querySelector('#dni').value,
             domicilio: document.querySelector('#domicilio').value,
-            fechaIngreso: document.querySelector('#fechaIngreso').value,
         };
         //invocamos utilizando la función fetch la API pacientes con el método POST que guardará
         //el paciente que enviaremos en formato JSON
@@ -59,7 +58,6 @@ window.addEventListener('load', function () {
         document.querySelector('#apellido').value = "";
          document.querySelector('#dni').value = "";
          document.querySelector('#domicilio').value = "";
-         document.querySelector('#fechaIngreso').value = "";
 
     }
 

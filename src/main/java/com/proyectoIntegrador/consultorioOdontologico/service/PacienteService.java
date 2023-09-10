@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import com.proyectoIntegrador.consultorioOdontologico.repository.IPacienteRepository;
 
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,7 +22,7 @@ public class PacienteService implements IPacienteService{
 
     @Override
     public void agregarPaciente(Paciente paciente) {
-
+        paciente.setFechaIngreso(LocalDate.now());
         pacienteRepository.save(paciente);
     }
 
