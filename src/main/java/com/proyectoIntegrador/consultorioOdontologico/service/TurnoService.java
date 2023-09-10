@@ -1,15 +1,15 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.proyectoIntegrador.consultorioOdontologico.dto.TurnoDTO;
+
 import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.proyectoIntegrador.consultorioOdontologico.repository.ITurnoRepository;
-import java.util.HashSet;
+
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
+
 
 
 @Service
@@ -22,26 +22,24 @@ public class TurnoService implements ITurnoService{
 
 
     @Override
-    public void agregarTurno(TurnoDTO turnoDTO) {
-        guardarTurno(turnoDTO);
-    }
+    public void agregarTurno(Turno turno) {
 
-    @Override
-    public TurnoDTO leerTurno(Integer id) {
-        Optional<Turno> turno = turnoRepository.findById(id);
-        TurnoDTO turnoDTO = null;
-        if(turno.isPresent())
-            turnoDTO = mapper.convertValue(turno, TurnoDTO.class);
-        return turnoDTO;
-    }
-
-    private void guardarTurno(TurnoDTO turnoDTO){
-        Turno turno = mapper.convertValue(turnoDTO, Turno.class);
         turnoRepository.save(turno);
     }
+
     @Override
-    public void modificarTurno(TurnoDTO turnoDTO) {
-        guardarTurno(turnoDTO);
+    public Turno leerTurno(Integer id) {
+        Optional<Turno> respuesta = turnoRepository.findById(id);
+        Turno turno = null;
+        if(respuesta.isPresent())
+            turno = mapper.convertValue(respuesta, Turno.class);
+        return turno;
+    }
+
+    @Override
+    public void modificarTurno(Turno turno) {
+
+        turnoRepository.save(turno);
     }
 
     @Override
@@ -50,12 +48,9 @@ public class TurnoService implements ITurnoService{
     }
 
     @Override
-    public Set<TurnoDTO> listarTurnos() {
+    public List<Turno> listarTurnos() {
         List<Turno> turnos= turnoRepository.findAll();
-        Set<TurnoDTO> turnosDTO = new HashSet<>();
-        for(Turno turno: turnos){
-            turnosDTO.add(mapper.convertValue(turno, TurnoDTO.class));
-        }
-        return turnosDTO;
+        return turnos;
     }
+
 }

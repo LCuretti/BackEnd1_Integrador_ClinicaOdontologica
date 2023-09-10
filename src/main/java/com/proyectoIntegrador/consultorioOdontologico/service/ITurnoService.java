@@ -1,12 +1,15 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
-import com.proyectoIntegrador.consultorioOdontologico.dto.TurnoDTO;
-import java.util.Set;
+
+import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
+
+import java.util.List;
+
 
 public interface ITurnoService {
-    void agregarTurno(TurnoDTO turnoDTO);
-    TurnoDTO leerTurno(Integer id);
-    void modificarTurno(TurnoDTO turnoDTO);
+    void agregarTurno(Turno turno);
+    Turno leerTurno(Integer id);
+    void modificarTurno(Turno turno);
     void eliminarTurno(Integer id);
-    Set<TurnoDTO> listarTurnos();
+    List<Turno> listarTurnos();
 }

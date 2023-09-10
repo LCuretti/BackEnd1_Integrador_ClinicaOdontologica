@@ -380,3 +380,32 @@ delete from pacientes where id=? [23503-214]]
 [2023-09-10 09:39:05] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
 [2023-09-10 09:40:17] [ ERROR] [GlobalExceptionHandler:16] Cannot deserialize value of type `java.time.LocalDate` from String "1976-09-15T00:00:00.000+00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '1976-09-15T00:00:00.000+00:00' could not be parsed, unparsed text found at index 23
  at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente["fechaIngreso"])
+[2023-09-10 10:43:09] [ INFO ] [TurnoController:34] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=Mon Sep 04 21:00:00 ART 2023}
+[2023-09-10 10:43:13] [ INFO ] [TurnoController:68] Buscando todos los turnos
+[2023-09-10 10:43:38] [ INFO ] [TurnoController:46] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=Mon Sep 04 21:00:00 ART 2023}
+[2023-09-10 10:44:05] [ ERROR] [GlobalExceptionHandler:16] Unable to find com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo with id 2
+[2023-09-10 10:44:15] [ ERROR] [GlobalExceptionHandler:16] Unable to find com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo with id 2
+[2023-09-10 10:44:24] [ INFO ] [TurnoController:53] Modificando el siguiente turno: Turno{Id=1, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-10 10:44:47] [ INFO ] [TurnoController:46] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-10 10:44:53] [ INFO ] [TurnoController:68] Buscando todos los turnos
+[2023-09-10 10:45:03] [ INFO ] [TurnoController:62] Eliminando turno con id: 1
+[2023-09-10 10:47:01] [ INFO ] [TurnoController:34] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-05}
+[2023-09-10 10:47:03] [ INFO ] [TurnoController:68] Buscando todos los turnos
+[2023-09-10 10:47:12] [ INFO ] [TurnoController:46] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=2023-09-05}
+[2023-09-10 11:00:47] [ ERROR] [GlobalExceptionHandler:16] not-null property references a null or transient value : com.proyectoIntegrador.consultorioOdontologico.entity.Turno.odontologo
+[2023-09-10 11:07:18] [ INFO ] [TurnoController:33] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-05}
+[2023-09-10 11:07:28] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:07:34] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=2023-09-05}
+[2023-09-10 11:07:41] [ INFO ] [TurnoController:52] Modificando el siguiente turno: Turno{Id=1, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=1976-09-16}
+[2023-09-10 11:07:45] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:07:50] [ INFO ] [TurnoController:61] Eliminando turno con id: 1
+[2023-09-10 11:07:57] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:08:00] [ INFO ] [TurnoController:33] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-05}
+[2023-09-10 11:08:03] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:08:15] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:09:15] [ INFO ] [TurnoController:33] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-05}
+[2023-09-10 11:09:17] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:09:52] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:09:56] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=2023-09-05}
+[2023-09-10 11:13:28] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@31dc70d0, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@15187ab9, fecha=2023-09-05]
+[2023-09-10 11:13:36] [ INFO ] [TurnoController:67] Buscando todos los turnos

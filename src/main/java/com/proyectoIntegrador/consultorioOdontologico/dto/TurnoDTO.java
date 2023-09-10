@@ -3,13 +3,14 @@ package com.proyectoIntegrador.consultorioOdontologico.dto;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 
-import java.util.Date;
+import java.time.LocalDate;
+
 
 public class TurnoDTO {
     private Integer id;
     private Paciente paciente;
     private Odontologo odontologo;
-    private Date fecha;
+    private LocalDate fecha;
 
     @Override
     public String toString() {
@@ -44,11 +45,11 @@ public class TurnoDTO {
         this.odontologo = odontologo;
     }
 
-    public Date getFecha() {
+    public LocalDate getFecha() {
         return fecha;
     }
 
-    public void setFecha(Date fecha) {
+    public void setFecha(LocalDate fecha) {
         this.fecha = fecha;
     }
 }

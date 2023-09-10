@@ -1,8 +1,11 @@
 package com.proyectoIntegrador.consultorioOdontologico.controller;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.proyectoIntegrador.consultorioOdontologico.GlobalExceptionHandler;
+import com.proyectoIntegrador.consultorioOdontologico.dto.CrearTurnoDTO;
 import com.proyectoIntegrador.consultorioOdontologico.dto.TurnoDTO;
+import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
 import com.proyectoIntegrador.consultorioOdontologico.service.ITurnoService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +14,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @RestController
 @RequestMapping("/turnos")
@@ -18,28 +24,36 @@ public class TurnoController {
     private static final Logger logger = Logger.getLogger(TurnoController.class);
     @Autowired
     ITurnoService turnoService;
+    @Autowired
+    ObjectMapper mapper;
 
     @PostMapping
-    public ResponseEntity<?> agregarTurno(@RequestBody TurnoDTO turnoDTO){
-        turnoService.agregarTurno(turnoDTO);
+    public ResponseEntity<?> agregarTurno(@RequestBody CrearTurnoDTO turnoDTO){
+        turnoService.agregarTurno(mapper.convertValue(turnoDTO, Turno.class));
         logger.info("Agregando el siguiente turno: " + turnoDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
     public TurnoDTO leerTurno(@PathVariable Integer id){
+        Turno turno = turnoService.leerTurno(id);
 
-        TurnoDTO turno = turnoService.leerTurno(id);
+        TurnoDTO turnoDTO = null;
+        if (turno != null){
+            turnoDTO = mapper.convertValue(turno, TurnoDTO.class);
+        }
         logger.info("Buscando turno: " + turno);
-        return turno;
+        return turnoDTO;
     }
 
     @PutMapping
     public ResponseEntity<?> modificarTurno(@RequestBody TurnoDTO turnoDTO){
-        turnoService.modificarTurno(turnoDTO);
+        turnoService.modificarTurno(mapper.convertValue(turnoDTO, Turno.class));
         logger.info("Modificando el siguiente turno: " + turnoDTO);
         return ResponseEntity.ok(HttpStatus.OK);
     }
+
+
 
     @DeleteMapping("/{id}")
     public ResponseEntity<?> eliminarTurno(@PathVariable Integer id){
@@ -51,6 +65,12 @@ public class TurnoController {
     @GetMapping
     public Collection<TurnoDTO> listarTurnos(){
         logger.info("Buscando todos los turnos");
-        return turnoService.listarTurnos();
+        List<Turno> turnos = turnoService.listarTurnos();
+        Set<TurnoDTO> turnosDTO = new HashSet<>();
+        for (Turno turno: turnos){
+            turnosDTO.add(mapper.convertValue(turno, TurnoDTO.class));
+        }
+        return turnosDTO;
     }
+
 }

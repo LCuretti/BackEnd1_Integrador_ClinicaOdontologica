@@ -1,8 +1,6 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO;
-import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 import com.proyectoIntegrador.consultorioOdontologico.repository.IOdontologoRepository;
 
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
@@ -10,11 +8,8 @@ import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
-import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 
 @Service
 public class OdontologoService implements IOdontologoService{
@@ -52,10 +47,6 @@ public class OdontologoService implements IOdontologoService{
     @Override
     public List<Odontologo> listarOdontologos() {
         List<Odontologo> odontologos= odontologoRepository.findAll();
-        //Set<OdontologoDTO> odontologosDTO = new HashSet<>();
-        //for(Odontologo odontologo: odontologos){
-        //    odontologosDTO.add(mapper.convertValue(odontologo, OdontologoDTO.class));
-        //}
         return odontologos;
 
     }

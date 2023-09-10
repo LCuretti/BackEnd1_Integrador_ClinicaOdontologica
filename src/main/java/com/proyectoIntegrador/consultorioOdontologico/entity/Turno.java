@@ -2,7 +2,8 @@ package com.proyectoIntegrador.consultorioOdontologico.entity;
 
 import jakarta.persistence.*;
 
-import java.util.Date;
+import java.time.LocalDate;
+
 @Entity
 @Table(name="turnos")
 public class Turno {
@@ -15,7 +16,7 @@ public class Turno {
     @ManyToOne
     @JoinColumn(name="odontologo_id", nullable = false)
     private Odontologo odontologo;
-    private Date fecha;
+    private LocalDate fecha;
 
     @Override
     public String toString() {
@@ -51,11 +52,11 @@ public class Turno {
         this.odontologo = odontologo;
     }
 
-    public Date getFecha() {
+    public LocalDate getFecha() {
         return fecha;
     }
 
-    public void setFecha(Date fecha) {
+    public void setFecha(LocalDate fecha) {
         this.fecha = fecha;
     }
 }
