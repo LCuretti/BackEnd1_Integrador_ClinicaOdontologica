@@ -438,3 +438,15 @@ delete from pacientes where id=? [23503-214]]
 [2023-09-12 14:51:36] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@57d227e5
 [2023-09-12 14:51:36] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
 [2023-09-12 14:51:37] [ INFO ] [OdontologoController:58] Boorando el Odontólogo con el ID: 3
+[2023-09-12 19:14:35] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:14:44] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 19:14:50] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 19:14:50] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 19:15:01] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:15:03] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 19:15:05] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 19:15:05] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 19:18:28] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:18:31] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 19:18:37] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 19:18:37] [ INFO ] [TurnoService:56] Listando todos los turnos

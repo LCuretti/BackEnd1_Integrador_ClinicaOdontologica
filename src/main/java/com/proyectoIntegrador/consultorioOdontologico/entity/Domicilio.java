@@ -3,6 +3,7 @@ package com.proyectoIntegrador.consultorioOdontologico.entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name="domicilios")
 public class Domicilio {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
