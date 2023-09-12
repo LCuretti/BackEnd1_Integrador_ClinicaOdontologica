@@ -48,8 +48,9 @@ public class TurnoController {
 
     @PutMapping
     public ResponseEntity<?> modificarTurno(@RequestBody TurnoDTO turnoDTO){
+
         turnoService.modificarTurno(mapper.convertValue(turnoDTO, Turno.class));
-        logger.info("Modificando el siguiente turno: " + turnoDTO);
+        logger.info("Modificando el siguiente turno: " + turnoDTO.getId() + "del paciente id " + turnoDTO.getPaciente().getId() + " del odontólogo id " + turnoDTO.getOdontologo().getId());
         return ResponseEntity.ok(HttpStatus.OK);
     }
 

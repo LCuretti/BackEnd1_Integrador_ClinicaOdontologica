@@ -47,8 +47,9 @@ public class OdontologoController {
 
     @PutMapping
     public ResponseEntity<?> modificarOdontologo(@RequestBody OdontologoDTO odontologoDTO){
-        odontologoService.modificarOdontologo(mapper.convertValue(odontologoDTO, Odontologo.class));
-        logger.info("Modificando el siguiente odontólogo: " + odontologoDTO);
+        Odontologo odontologo = mapper.convertValue(odontologoDTO, Odontologo.class);
+        odontologoService.modificarOdontologo(odontologo);
+        logger.info("Modificando el siguiente odontólogo: " + odontologo);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 

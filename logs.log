@@ -512,3 +512,21 @@ insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?
 [2023-09-12 20:08:47] [ INFO ] [PacienteController:70] Listando Pacientes
 [2023-09-12 20:08:47] [ INFO ] [PacienteController:70] Listando Pacientes
 [2023-09-12 20:08:47] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:15:52] [ INFO ] [OdontologoController:65] Buscando todos los Odontólogos
+[2023-09-12 20:15:58] [ INFO ] [OdontologoController:65] Buscando todos los Odontólogos
+[2023-09-12 20:16:01] [ INFO ] [OdontologoController:44] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@1b853a8b
+[2023-09-12 20:16:11] [ INFO ] [OdontologoController:52] Modificando el siguiente odontólogo: Odontologo{id=1, apellido='Pozo', nombre='Tomás', matricula='123456789}
+[2023-09-12 20:16:11] [ INFO ] [OdontologoController:65] Buscando todos los Odontólogos
+[2023-09-12 20:18:46] [ INFO ] [OdontologoController:44] Buscando Odontólogo: Odontologo{id=1, apellido='Dozo', nombre='Tomás', matricula='123456789}
+[2023-09-12 20:19:05] [ INFO ] [OdontologoController:65] Buscando todos los Odontólogos
+[2023-09-12 20:19:05] [ INFO ] [OdontologoController:52] Modificando el siguiente odontólogo: Odontologo{id=1, apellido='Pozo', nombre='Alejandro', matricula='123456789}
+[2023-09-12 20:23:57] [ INFO ] [TurnoController:68] Buscando todos los turnos
+[2023-09-12 20:23:57] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 20:24:02] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Pepito', apellido='Perez', dni='40789456', fechaIngreso=2023-06-15, domicilio=com.proyectoIntegrador.consultorioOdontologico.entity.Domicilio@1879a86c}, odontologo=Odontologo{id=1, apellido='Dozo', nombre='Tomás', matricula='123456789}, fecha=2023-06-20}
+[2023-09-12 20:24:09] [ INFO ] [TurnoController:53] Modificando el siguiente turno: 1del paciente id 1 del odontólogo id 1
+[2023-09-12 20:24:09] [ INFO ] [TurnoController:68] Buscando todos los turnos
+[2023-09-12 20:24:09] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 20:26:52] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Pepito', apellido='Perez', dni='40789456', fechaIngreso=2023-06-15, domicilio=Domicilio{id=1, calle='San Martin', numero='Palermo', localidad='4561', provincia='Bs As'}}, odontologo=Odontologo{id=1, apellido='Dozo', nombre='Tomás', matricula='123456789}, fecha=2023-06-20}
+[2023-09-12 20:26:54] [ INFO ] [TurnoController:68] Buscando todos los turnos
+[2023-09-12 20:26:54] [ INFO ] [TurnoController:53] Modificando el siguiente turno: 1del paciente id 1 del odontólogo id 1
+[2023-09-12 20:26:54] [ INFO ] [TurnoService:56] Listando todos los turnos
