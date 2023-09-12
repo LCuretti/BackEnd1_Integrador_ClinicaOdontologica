@@ -1,0 +1,463 @@
+[2023-08-29 17:42:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 17:42:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 17:42:14] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 17:42:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 17:42:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 17:42:14] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 17:45:37] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 17:45:37] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 17:45:37] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 17:45:37] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 17:45:37] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 17:45:37] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:16:16] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:16:16] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:16:47] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:16:47] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:22:26] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:22:26] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:22:45] [ INFO ] [OdontologoServiceTest:19] Testiando H2 con matricula erronea
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=548}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=32}
+[2023-08-29 18:22:45] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:22:45] [ INFO ] [OdontologoServiceTest:42] Testiando Array con nombre o apellido vacios
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=, Apellido=Sanchez, Matricula=548}
+[2023-08-29 18:22:45] [ WARN ] [OdontologoService:24] Campo Nombre Vacio
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=128}
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=, Matricula=698}
+[2023-08-29 18:22:45] [ WARN ] [OdontologoService:28] Campo Apellido Vacio
+[2023-08-29 18:22:45] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:26:53] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:26:53] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:28:55] [ INFO ] [OdontologoServiceTest:19] Testiando H2 con matricula erronea
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=548}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=32}
+[2023-08-29 18:28:55] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:28:55] [ INFO ] [OdontologoServiceTest:42] Testiando Array con nombre o apellido vacios
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=, Apellido=Sanchez, Matricula=548}
+[2023-08-29 18:28:55] [ WARN ] [OdontologoService:24] Campo Nombre Vacio
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=128}
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=, Matricula=698}
+[2023-08-29 18:28:55] [ WARN ] [OdontologoService:28] Campo Apellido Vacio
+[2023-08-29 18:28:55] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 18:29:08] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 18:29:08] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 19:55:48] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 19:55:48] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-29 20:11:30] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-29 20:11:30] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-30 20:00:30] [ ERROR] [OdontologoDaoH2:33] No se pudo crear el DAO
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Conexión rota: "java.net.ConnectException: Connection refused: no further information: localhost"
+Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:437)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:325)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.<init>(OdontologoDaoH2.java:22)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:17)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:540)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:590)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:135)
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:99)
+	at org.h2.engine.SessionRemote.initTransfer(SessionRemote.java:130)
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:433)
+	... 7 more
+[2023-08-30 20:00:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-30 20:00:30] [ ERROR] [OdontologoDaoH2:48] No se pudo persistir: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.connection" is null
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:39)
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:12)
+	at com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService.registrar(OdontologoService.java:33)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:26)
+[2023-08-30 20:00:30] [ ERROR] [OdontologoService:35] java.lang.Exception: Sucedio un error al persistir
+[2023-08-30 20:00:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-30 20:00:30] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-30 20:00:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-30 20:00:30] [ ERROR] [OdontologoDaoH2:48] No se pudo persistir: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.connection" is null
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:39)
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:12)
+	at com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService.registrar(OdontologoService.java:33)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:28)
+[2023-08-30 20:00:30] [ ERROR] [OdontologoService:35] java.lang.Exception: Sucedio un error al persistir
+[2023-08-30 20:00:30] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-30 20:00:30] [ ERROR] [OdontologoDaoH2:48] No se pudo persistir: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.connection" is null
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:39)
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:12)
+	at com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService.registrar(OdontologoService.java:33)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:29)
+[2023-08-30 20:00:30] [ ERROR] [OdontologoService:35] java.lang.Exception: Sucedio un error al persistir
+[2023-08-30 20:00:30] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-30 20:00:30] [ ERROR] [OdontologoDaoH2:78] Sucedio un error al listar odontologos
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.connection" is null
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.listar(OdontologoDaoH2.java:57)
+	at com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService.listar(OdontologoService.java:48)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:32)
+[2023-08-30 20:00:30] [ ERROR] [OdontologoService:50] java.lang.Exception: Error al listar odontologos
+[2023-08-30 20:01:50] [ ERROR] [OdontologoDaoH2:33] No se pudo crear el DAO
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Conexión rota: "java.net.ConnectException: Connection refused: no further information: localhost"
+Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:437)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:325)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.<init>(OdontologoDaoH2.java:22)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:17)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:540)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:590)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:135)
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:99)
+	at org.h2.engine.SessionRemote.initTransfer(SessionRemote.java:130)
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:433)
+	... 7 more
+[2023-08-30 20:01:50] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-30 20:01:50] [ ERROR] [OdontologoDaoH2:48] No se pudo persistir: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.connection" is null
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:39)
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:12)
+	at com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService.registrar(OdontologoService.java:33)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:26)
+[2023-08-30 20:01:50] [ ERROR] [OdontologoService:35] java.lang.Exception: Sucedio un error al persistir
+[2023-08-30 20:01:50] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-30 20:01:50] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-30 20:01:50] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-30 20:01:50] [ ERROR] [OdontologoDaoH2:48] No se pudo persistir: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.connection" is null
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:39)
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:12)
+	at com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService.registrar(OdontologoService.java:33)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:28)
+[2023-08-30 20:01:50] [ ERROR] [OdontologoService:35] java.lang.Exception: Sucedio un error al persistir
+[2023-08-30 20:01:50] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-30 20:01:50] [ ERROR] [OdontologoDaoH2:48] No se pudo persistir: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.connection" is null
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:39)
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.registrar(OdontologoDaoH2.java:12)
+	at com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService.registrar(OdontologoService.java:33)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:29)
+[2023-08-30 20:01:50] [ ERROR] [OdontologoService:35] java.lang.Exception: Sucedio un error al persistir
+[2023-08-30 20:01:50] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-30 20:01:50] [ ERROR] [OdontologoDaoH2:78] Sucedio un error al listar odontologos
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.connection" is null
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.listar(OdontologoDaoH2.java:57)
+	at com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService.listar(OdontologoService.java:48)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:32)
+[2023-08-30 20:01:50] [ ERROR] [OdontologoService:50] java.lang.Exception: Error al listar odontologos
+[2023-08-30 20:02:11] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-30 20:02:11] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-30 20:02:11] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-30 20:02:11] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-30 20:02:11] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-30 20:02:11] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-30 20:02:41] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-30 20:02:41] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-30 20:02:41] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-30 20:02:41] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-30 20:02:41] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-30 20:02:41] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-30 20:02:41] [ ERROR] [OdontologoDaoH2:78] Sucedio un error al listar odontologos
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcResultSet.checkClosed(JdbcResultSet.java:3536)
+	at org.h2.jdbc.JdbcResultSet.next(JdbcResultSet.java:124)
+	at com.proyectoIntegrador.consultorioOdontologico.dao.Impl.OdontologoDaoH2.listar(OdontologoDaoH2.java:61)
+	at com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService.listar(OdontologoService.java:48)
+	at com.proyectoIntegrador.consultorioOdontologico.ConsultorioOdontologicoApplication.main(ConsultorioOdontologicoApplication.java:32)
+[2023-08-30 20:02:41] [ ERROR] [OdontologoService:50] java.lang.Exception: Error al listar odontologos
+[2023-08-30 20:03:27] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-30 20:03:27] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-30 20:03:27] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-30 20:03:27] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-30 20:03:27] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-30 20:03:27] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-30 20:57:31] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-30 20:57:31] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=1}
+[2023-08-30 20:57:31] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-30 20:57:31] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=158}
+[2023-08-30 20:57:31] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-30 20:57:31] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-30 20:58:14] [ INFO ] [OdontologoServiceTest:19] Testiando H2 con matricula erronea
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=Pedro, Apellido=Sanchez, Matricula=548}
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=32}
+[2023-08-30 20:58:14] [ WARN ] [OdontologoService:20] Matricula Invalida
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=Rodriguez, Matricula=698}
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-08-30 20:58:14] [ INFO ] [OdontologoServiceTest:42] Testiando Array con nombre o apellido vacios
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=1, Nombre=Luis, Apellido=Curetti, Matricula=123}
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=2, Nombre=, Apellido=Sanchez, Matricula=548}
+[2023-08-30 20:58:14] [ WARN ] [OdontologoService:24] Campo Nombre Vacio
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=3, Nombre=Marcos, Apellido=Lopez, Matricula=128}
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:17] Intentando persistir al odontologo: Odontologo{ID=4, Nombre=Brian, Apellido=, Matricula=698}
+[2023-08-30 20:58:14] [ WARN ] [OdontologoService:28] Campo Apellido Vacio
+[2023-08-30 20:58:14] [ INFO ] [OdontologoService:44] Intentando listar los odontologos
+[2023-09-04 16:06:45] [ ERROR] [GlobalExceptionHandler:16] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "p"
+[2023-09-04 16:07:28] [ ERROR] [GlobalExceptionHandler:16] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "p"
+[2023-09-05 10:39:05] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "5/8/23": not a valid representation (error: Failed to parse Date value '5/8/23': Cannot parse date "5/8/23": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+[2023-09-05 11:14:26] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Unexpected character ('-' (code 45)): was expecting comma to separate Object entries
+[2023-09-05 13:44:08] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot construct instance of `com.proyectoIntegrador.consultorioOdontologico.entity.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('1')
+[2023-09-05 13:44:59] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot construct instance of `com.proyectoIntegrador.consultorioOdontologico.entity.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('2002')
+[2023-09-05 13:46:16] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot construct instance of `com.proyectoIntegrador.consultorioOdontologico.entity.Paciente` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (2002)
+[2023-09-05 13:50:13] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+[2023-09-05 13:51:19] [ ERROR] [GlobalExceptionHandler:16] not-null property references a null or transient value : com.proyectoIntegrador.consultorioOdontologico.entity.Turno.odontologo
+[2023-09-05 13:52:51] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot construct instance of `com.proyectoIntegrador.consultorioOdontologico.entity.Paciente` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (2002)
+[2023-09-05 14:17:27] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot construct instance of `com.proyectoIntegrador.consultorioOdontologico.entity.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('2002')
+[2023-09-05 14:31:29] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"
+Referential integrity constraint violation: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"; SQL statement:
+delete from pacientes where id=? [23503-214]] [delete from pacientes where id=?]; SQL [delete from pacientes where id=?]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-09-05 14:32:15] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"
+Referential integrity constraint violation: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"; SQL statement:
+delete from pacientes where id=? [23503-214]] [delete from pacientes where id=?]; SQL [delete from pacientes where id=?]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-09-05 14:32:22] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"
+Referential integrity constraint violation: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"; SQL statement:
+delete from pacientes where id=? [23503-214]] [delete from pacientes where id=?]; SQL [delete from pacientes where id=?]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-09-05 14:32:36] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"
+Referential integrity constraint violation: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"; SQL statement:
+delete from pacientes where id=? [23503-214]] [delete from pacientes where id=?]; SQL [delete from pacientes where id=?]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2002)"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-09-05 14:33:08] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-214]] [delete from odontologos where id=?]; SQL [delete from odontologos where id=?]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-09-05 14:33:17] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1602)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1602)"; SQL statement:
+delete from odontologos where id=? [23503-214]] [delete from odontologos where id=?]; SQL [delete from odontologos where id=?]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1602)"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-09-05 14:38:29] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot construct instance of `com.proyectoIntegrador.consultorioOdontologico.entity.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('2002')
+[2023-09-05 14:42:21] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot construct instance of `com.proyectoIntegrador.consultorioOdontologico.entity.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('2002')
+[2023-09-05 14:45:48] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (545)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (545)"; SQL statement:
+insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?) [23506-214]] [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; SQL [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]
+[2023-09-05 16:24:46] [ INFO ] [TurnoController:51] Buscando todos los turnos
+[2023-09-05 16:24:59] [ INFO ] [TurnoController:45] Eliminando turno con id: 1602
+[2023-09-05 16:25:12] [ INFO ] [TurnoController:25] Agregando el siguiente turno: com.proyectoIntegrador.consultorioOdontologico.dto.TurnoDTO@1184001b
+[2023-09-05 16:25:43] [ INFO ] [TurnoController:51] Buscando todos los turnos
+[2023-09-05 16:25:47] [ INFO ] [TurnoController:31] Buscando turno con id: 1653
+[2023-09-05 16:29:56] [ INFO ] [TurnoController:52] Buscando todos los turnos
+[2023-09-05 16:29:58] [ INFO ] [TurnoController:31] Buscando turno con id: 1652
+[2023-09-05 16:31:24] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 16:31:26] [ INFO ] [TurnoController:33] Buscando turno: Turno{Id=1652, paciente=Paciente{id=2002, nombre='Luis', apellido='Curetti', dni='2537516955', fechaIngreso=Tue Sep 14 20:55:00 ART 1976, domicilio=Luis Lagos Garcia 11613}, odontologo=Odontologo{id=2, apellido='Sanchez', nombre='Luis Alejandro3', matricula='25375169}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-05 16:32:17] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 16:38:27] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 16:38:29] [ INFO ] [TurnoController:33] Buscando turno: Turno{Id=1653, paciente=Paciente{id=2102, nombre='Luis67556', apellido='Curetti56776', dni='2537516954454554', fechaIngreso=Tue Sep 14 21:00:00 ART 1976, domicilio=Cordoba}, odontologo=Odontologo{id=1602, apellido='Curetti', nombre='Luis', matricula='45435}, fecha=Thu Sep 14 21:00:00 ART 1978}
+[2023-09-05 16:40:48] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 16:40:49] [ INFO ] [TurnoController:33] Buscando turno: Turno{Id=1653, paciente=Paciente{id=2102, nombre='Luis67556', apellido='Curetti56776', dni='2537516954454554', fechaIngreso=Tue Sep 14 21:00:00 ART 1976, domicilio=Cordoba}, odontologo=Odontologo{id=1602, apellido='Curetti', nombre='Luis', matricula='45435}, fecha=Thu Sep 14 21:00:00 ART 1978}
+[2023-09-05 16:41:04] [ INFO ] [TurnoController:40] Modificando el siguiente turno: Turno{Id=1653, paciente=Paciente{id=2002, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1602, apellido='null', nombre='null', matricula='null}, fecha=Thu Sep 14 21:00:00 ART 1978}
+[2023-09-05 16:41:04] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 16:41:08] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 16:41:11] [ INFO ] [TurnoController:33] Buscando turno: Turno{Id=1702, paciente=Paciente{id=2002, nombre='Luis', apellido='Curetti', dni='2537516955', fechaIngreso=Tue Sep 14 20:55:00 ART 1976, domicilio=Luis Lagos Garcia 11613}, odontologo=Odontologo{id=2, apellido='Sanchez', nombre='Luis Alejandro3', matricula='25375169}, fecha=Thu Sep 14 21:00:00 ART 1978}
+[2023-09-05 16:41:16] [ INFO ] [TurnoController:40] Modificando el siguiente turno: Turno{Id=1702, paciente=Paciente{id=2102, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=2, apellido='null', nombre='null', matricula='null}, fecha=Thu Sep 14 21:00:00 ART 1978}
+[2023-09-05 16:41:16] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 16:41:26] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 16:41:30] [ INFO ] [TurnoController:47] Eliminando turno con id: 1702
+[2023-09-05 18:29:17] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:29:28] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-214]] [delete from odontologos where id=?]; SQL [delete from odontologos where id=?]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-09-05 18:33:44] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:34:23] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo
+[2023-09-05 18:34:26] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:34:57] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo
+[2023-09-05 18:35:11] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:36:24] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 18:37:22] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 18:37:25] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:39:33] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:39:42] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 18:40:24] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 18:40:46] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 18:40:56] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 19:30:07] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:31:57] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:32:16] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 19:32:24] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:32:32] [ ERROR] [GlobalExceptionHandler:16] detached entity passed to persist: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-05 19:33:37] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2152)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2152)"; SQL statement:
+insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?) [23506-214]] [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; SQL [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]
+[2023-09-05 19:37:43] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:38:22] [ INFO ] [TurnoController:25] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=2203, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1752, apellido='null', nombre='null', matricula='null}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-05 19:38:27] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:38:56] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2203)"
+Referential integrity constraint violation: "FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2203)"; SQL statement:
+delete from pacientes where id=? [23503-214]] [delete from pacientes where id=?]; SQL [delete from pacientes where id=?]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2203)"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-09-05 19:47:11] [ INFO ] [TurnoController:25] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=2252, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1802, apellido='null', nombre='null', matricula='null}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-05 19:47:27] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:47:56] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-05 19:48:25] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-06 20:39:23] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-06 20:40:19] [ INFO ] [TurnoController:25] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=Thu Sep 07 21:00:00 ART 2023}
+[2023-09-06 20:40:22] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-06 20:40:32] [ INFO ] [TurnoController:33] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Juliana', apellido='Lopez Dupertuis', dni='1551515151', fechaIngreso=Tue Sep 05 21:00:00 ART 2023, domicilio=Hermano teofano 2029}, odontologo=Odontologo{id=1, apellido='Curetti', nombre='Leo', matricula='123}, fecha=Thu Sep 07 21:00:00 ART 2023}
+[2023-09-06 20:40:54] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-06 21:09:38] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-09 21:37:23] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-09 21:40:50] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-09 21:41:12] [ INFO ] [TurnoController:25] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=3153, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1802, apellido='null', nombre='null', matricula='null}, fecha=Thu Sep 14 21:00:00 ART 1978}
+[2023-09-09 21:41:26] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-09 21:41:28] [ INFO ] [TurnoController:33] Buscando turno: Turno{Id=3152, paciente=Paciente{id=3153, nombre='Enrique', apellido='Lenher', dni='54656', fechaIngreso=Thu Sep 14 21:00:00 ART 1978, domicilio=Cordoba}, odontologo=Odontologo{id=1802, apellido='Cantarelli', nombre='Ema Cecilia', matricula='6458}, fecha=Thu Sep 14 21:00:00 ART 1978}
+[2023-09-09 21:42:01] [ INFO ] [TurnoController:25] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=3152, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3152, apellido='null', nombre='null', matricula='null}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-09 21:42:38] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-09 22:10:52] [ ERROR] [GlobalExceptionHandler:16] A collection with cascade="all-delete-orphan" was no longer referenced by the owning entity instance: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente.turnos
+[2023-09-09 22:11:29] [ ERROR] [GlobalExceptionHandler:16] A collection with cascade="all-delete-orphan" was no longer referenced by the owning entity instance: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente.turnos
+[2023-09-09 22:11:54] [ ERROR] [GlobalExceptionHandler:16] A collection with cascade="all-delete-orphan" was no longer referenced by the owning entity instance: com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo.turnos
+[2023-09-09 22:12:18] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-09 22:12:44] [ ERROR] [GlobalExceptionHandler:16] A collection with cascade="all-delete-orphan" was no longer referenced by the owning entity instance: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente.turnos
+[2023-09-09 22:15:24] [ ERROR] [GlobalExceptionHandler:16] A collection with cascade="all-delete-orphan" was no longer referenced by the owning entity instance: com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo.turnos
+[2023-09-09 22:15:46] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-09 22:16:05] [ ERROR] [GlobalExceptionHandler:16] A collection with cascade="all-delete-orphan" was no longer referenced by the owning entity instance: com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo.turnos
+[2023-09-09 22:18:13] [ ERROR] [GlobalExceptionHandler:16] A collection with cascade="all-delete-orphan" was no longer referenced by the owning entity instance: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente.turnos
+[2023-09-09 22:23:02] [ INFO ] [TurnoController:25] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=3252, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3252, apellido='null', nombre='null', matricula='null}, fecha=Thu Sep 14 21:00:00 ART 1978}
+[2023-09-09 22:23:04] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-10 08:08:54] [ INFO ] [TurnoController:53] Buscando todos los turnos
+[2023-09-10 09:39:05] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+[2023-09-10 09:40:17] [ ERROR] [GlobalExceptionHandler:16] Cannot deserialize value of type `java.time.LocalDate` from String "1976-09-15T00:00:00.000+00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '1976-09-15T00:00:00.000+00:00' could not be parsed, unparsed text found at index 23
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.proyectoIntegrador.consultorioOdontologico.entity.Paciente["fechaIngreso"])
+[2023-09-10 10:43:09] [ INFO ] [TurnoController:34] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=Mon Sep 04 21:00:00 ART 2023}
+[2023-09-10 10:43:13] [ INFO ] [TurnoController:68] Buscando todos los turnos
+[2023-09-10 10:43:38] [ INFO ] [TurnoController:46] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=Mon Sep 04 21:00:00 ART 2023}
+[2023-09-10 10:44:05] [ ERROR] [GlobalExceptionHandler:16] Unable to find com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo with id 2
+[2023-09-10 10:44:15] [ ERROR] [GlobalExceptionHandler:16] Unable to find com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo with id 2
+[2023-09-10 10:44:24] [ INFO ] [TurnoController:53] Modificando el siguiente turno: Turno{Id=1, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-10 10:44:47] [ INFO ] [TurnoController:46] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=Tue Sep 14 21:00:00 ART 1976}
+[2023-09-10 10:44:53] [ INFO ] [TurnoController:68] Buscando todos los turnos
+[2023-09-10 10:45:03] [ INFO ] [TurnoController:62] Eliminando turno con id: 1
+[2023-09-10 10:47:01] [ INFO ] [TurnoController:34] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-05}
+[2023-09-10 10:47:03] [ INFO ] [TurnoController:68] Buscando todos los turnos
+[2023-09-10 10:47:12] [ INFO ] [TurnoController:46] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=2023-09-05}
+[2023-09-10 11:00:47] [ ERROR] [GlobalExceptionHandler:16] not-null property references a null or transient value : com.proyectoIntegrador.consultorioOdontologico.entity.Turno.odontologo
+[2023-09-10 11:07:18] [ INFO ] [TurnoController:33] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-05}
+[2023-09-10 11:07:28] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:07:34] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=2023-09-05}
+[2023-09-10 11:07:41] [ INFO ] [TurnoController:52] Modificando el siguiente turno: Turno{Id=1, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=1976-09-16}
+[2023-09-10 11:07:45] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:07:50] [ INFO ] [TurnoController:61] Eliminando turno con id: 1
+[2023-09-10 11:07:57] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:08:00] [ INFO ] [TurnoController:33] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-05}
+[2023-09-10 11:08:03] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:08:15] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:09:15] [ INFO ] [TurnoController:33] Agregando el siguiente turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-05}
+[2023-09-10 11:09:17] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:09:52] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-10 11:09:56] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=2023-09-05}
+[2023-09-10 11:13:28] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@31dc70d0, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@15187ab9, fecha=2023-09-05]
+[2023-09-10 11:13:36] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:16:20] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?) [23506-214]] [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; SQL [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]
+[2023-09-12 09:18:28] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@1524fdfb, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@1de543b2, fecha=2023-09-15]
+[2023-09-12 09:18:55] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:29:26] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:29:28] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=2, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22625263', fechaIngreso=2023-09-12, domicilio=Hermano teofano 2029}, odontologo=Odontologo{id=1, apellido='Lopez Dupertuis', nombre='Juliana', matricula='213213}, fecha=2023-09-15}
+[2023-09-12 09:29:47] [ INFO ] [TurnoController:52] Modificando el siguiente turno: Turno{Id=2, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16}
+[2023-09-12 09:29:47] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:30:33] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@28080b87, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@50195c42, fecha=2023-10-15]
+[2023-09-12 09:30:43] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:31:11] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:31:19] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=2, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22625263', fechaIngreso=2023-09-12, domicilio=Hermano teofano 2029}, odontologo=Odontologo{id=1, apellido='Lopez Dupertuis', nombre='Juliana', matricula='213213}, fecha=2023-09-16}
+[2023-09-12 09:31:31] [ INFO ] [TurnoController:52] Modificando el siguiente turno: Turno{Id=2, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16}
+[2023-09-12 09:31:31] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:31:36] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=3, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22625263', fechaIngreso=2023-09-12, domicilio=Hermano teofano 2029}, odontologo=Odontologo{id=1, apellido='Lopez Dupertuis', nombre='Juliana', matricula='213213}, fecha=2023-10-15}
+[2023-09-12 09:31:40] [ INFO ] [TurnoController:52] Modificando el siguiente turno: Turno{Id=3, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-10-15}
+[2023-09-12 09:31:40] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:31:45] [ INFO ] [TurnoController:61] Eliminando turno con id: 3
+[2023-09-12 09:34:18] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@31385fc3, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@508d6f59, fecha=2023-10-15]
+[2023-09-12 09:34:58] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:35:03] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=4, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22625263', fechaIngreso=2023-09-12, domicilio=Hermano teofano 2029}, odontologo=Odontologo{id=1, apellido='Lopez Dupertuis', nombre='Juliana', matricula='213213}, fecha=2023-10-15}
+[2023-09-12 09:35:11] [ INFO ] [TurnoController:52] Modificando el siguiente turno: Turno{Id=4, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-10-17}
+[2023-09-12 09:35:11] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:36:33] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 09:36:35] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=2, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22654645', fechaIngreso=2023-09-12, domicilio=Hermano teofano 2029}, odontologo=Odontologo{id=1, apellido='Lopez Dupertuis', nombre='Juliana', matricula='213213}, fecha=2023-09-16}
+[2023-09-12 09:36:41] [ INFO ] [TurnoController:52] Modificando el siguiente turno: Turno{Id=2, paciente=Paciente{id=2, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16}
+[2023-09-12 09:36:41] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 10:00:32] [ INFO ] [OdontologoController:32] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Juan, apellido=Perez, matricula=12345]
+[2023-09-12 10:00:33] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 10:00:53] [ INFO ] [OdontologoController:32] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=adrian, apellido=gonzalez, matricula=54321]
+[2023-09-12 10:00:54] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 10:01:20] [ INFO ] [OdontologoController:44] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@6d3888de
+[2023-09-12 10:01:32] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@1738fb71
+[2023-09-12 10:01:32] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 10:02:26] [ INFO ] [OdontologoController:32] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Fabian, apellido=Corcega, matricula=98798]
+[2023-09-12 10:02:27] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 10:02:32] [ INFO ] [OdontologoController:58] Boorando el Odontólogo con el ID: 1
+[2023-09-12 10:21:52] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?) [23506-214]] [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; SQL [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]
+[2023-09-12 10:21:55] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 10:22:01] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 10:22:13] [ ERROR] [GlobalExceptionHandler:16] could not execute statement [Violación de una restricción de Integridad Referencial: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"
+Referential integrity constraint violation: "FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?) [23506-214]] [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; SQL [insert into turnos (fecha,odontologo_id,paciente_id,id) values (?,?,?,?)]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]
+[2023-09-12 10:22:15] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 10:24:40] [ INFO ] [OdontologoController:32] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Ramon, apellido=Dienton, matricula=56465]
+[2023-09-12 10:24:42] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 10:24:53] [ INFO ] [TurnoService:30] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=1, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16}
+[2023-09-12 10:24:53] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@42c1d339, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@1194008, fecha=2023-09-16]
+[2023-09-12 10:24:55] [ INFO ] [TurnoController:67] Buscando todos los turnos
