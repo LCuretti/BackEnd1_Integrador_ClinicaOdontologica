@@ -42,7 +42,7 @@ public class TurnoController {
         if (turno != null){
             turnoDTO = mapper.convertValue(turno, TurnoDTO.class);
         }
-        logger.info("Buscando turno: " + turno);
+        logger.info("Buscando turno: " + turnoDTO);
         return turnoDTO;
     }
 
