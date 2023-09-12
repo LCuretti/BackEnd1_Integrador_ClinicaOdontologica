@@ -3,7 +3,7 @@ package com.proyectoIntegrador.consultorioOdontologico.entity;
 import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name="odontologos")

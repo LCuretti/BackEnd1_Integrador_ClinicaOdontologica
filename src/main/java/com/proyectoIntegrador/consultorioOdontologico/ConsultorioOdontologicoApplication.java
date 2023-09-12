@@ -12,6 +12,7 @@ public class ConsultorioOdontologicoApplication {
 		SpringApplication.run(ConsultorioOdontologicoApplication.class, args);
 
 
+
 	}
 
 }
