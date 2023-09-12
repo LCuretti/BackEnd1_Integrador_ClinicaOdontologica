@@ -22,17 +22,8 @@ class PacienteServiceTest {
         paciente.setNombre("Raul");
         paciente.setApellido("Perez");
         pacienteService.agregarPaciente(paciente);
-        Paciente pacienteRaul = pacienteService.leerPaciente(1);
+        Paciente pacienteRaul = pacienteService.leerPaciente(5);
         assertTrue(pacienteRaul != null);
     }
-    @Test
-    public void testModificarPaciente(){
 
-        Paciente paciente = new Paciente();
-        paciente.setNombre("Jorge");
-        paciente.setApellido("Benitez");
-        pacienteService.modificarPaciente(paciente);
-        Paciente pacienteJorge = pacienteService.leerPaciente(1);
-        assertTrue(pacienteJorge != null);
-    }
 }

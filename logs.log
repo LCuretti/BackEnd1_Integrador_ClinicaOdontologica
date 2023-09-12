@@ -485,3 +485,30 @@ delete from pacientes where id=? [23503-214]]
 [2023-09-12 19:29:49] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
 [2023-09-12 19:29:52] [ INFO ] [TurnoController:67] Buscando todos los turnos
 [2023-09-12 19:29:52] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 19:40:06] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:40:13] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 19:40:20] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 19:40:20] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 19:58:43] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:58:53] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@2fd799b3
+[2023-09-12 19:59:04] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot construct instance of `com.proyectoIntegrador.consultorioOdontologico.entity.Domicilio` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('[object Object]'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.proyectoIntegrador.consultorioOdontologico.entity.Domicilio` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('[object Object]')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 77] (through reference chain: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO["domicilio"])
+[2023-09-12 19:59:04] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:59:23] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@6d6dd393
+[2023-09-12 20:00:03] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:01:03] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:01:07] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@427b6c93
+[2023-09-12 20:01:20] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.DOMICILIOS(ID) ( /* key:1 */ 1, 'San Martin', '4561', 'Palermo', 'Bs As')"; SQL statement:
+insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2023-09-12 20:01:20] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:04:22] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:04:25] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@4f69606e
+[2023-09-12 20:08:01] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:08:32] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.DOMICILIOS(ID) ( /* key:2 */ 2, 'Cervantes', '1854', 'Godoy Cruz', 'Mendoza')"; SQL statement:
+insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2023-09-12 20:08:35] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:08:46] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:08:47] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:08:47] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:08:47] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 20:08:47] [ INFO ] [PacienteController:70] Listando Pacientes
