@@ -409,3 +409,16 @@ delete from pacientes where id=? [23503-214]]
 [2023-09-10 11:09:56] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-10, domicilio=Cordoba}, odontologo=Odontologo{id=1, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=2023-09-05}
 [2023-09-10 11:13:28] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@31dc70d0, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@15187ab9, fecha=2023-09-05]
 [2023-09-10 11:13:36] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-11 22:46:01] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-11 22:47:58] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-11 22:47:58] [ INFO ] [TurnoService:57] Listando todos los turnos
+[2023-09-11 23:05:16] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@3cff5105, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@743689cb, fecha=2023-09-05]
+[2023-09-12 13:42:22] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@22f8ee6, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@6b0a4a26, fecha=2023-09-05]
+[2023-09-12 13:42:30] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 13:42:30] [ INFO ] [TurnoService:57] Listando todos los turnos
+[2023-09-12 13:42:43] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 13:42:43] [ INFO ] [TurnoService:57] Listando todos los turnos
+[2023-09-12 14:02:21] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@6b698c80, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@3b59d9b5, fecha=1976-09-15]
+[2023-09-12 14:02:23] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 14:02:23] [ INFO ] [TurnoService:57] Listando todos los turnos
+[2023-09-12 14:02:25] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=1, paciente=Paciente{id=1, nombre='Ema Cecilia', apellido='Cantarelli', dni='2338615822', fechaIngreso=2023-09-12, domicilio=com.proyectoIntegrador.consultorioOdontologico.entity.Domicilio@2d17163a}, odontologo=Odontologo{id=1, apellido='Cantarelli', nombre='Ema Cecilia', matricula='6458}, fecha=1976-09-15}

@@ -2,7 +2,9 @@ package com.proyectoIntegrador.consultorioOdontologico.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import com.proyectoIntegrador.consultorioOdontologico.controller.TurnoController;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.proyectoIntegrador.consultorioOdontologico.repository.ITurnoRepository;
@@ -14,6 +16,8 @@ import java.util.Optional;
 
 @Service
 public class TurnoService implements ITurnoService{
+
+    private static final Logger logger = Logger.getLogger(TurnoService.class);
     @Autowired
     private ITurnoRepository turnoRepository;
 
@@ -50,6 +54,7 @@ public class TurnoService implements ITurnoService{
     @Override
     public List<Turno> listarTurnos() {
         List<Turno> turnos= turnoRepository.findAll();
+        logger.info("Listando todos los turnos");
         return turnos;
     }
 

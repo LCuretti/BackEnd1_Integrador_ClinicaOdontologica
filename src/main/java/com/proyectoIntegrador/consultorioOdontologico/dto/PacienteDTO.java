@@ -1,16 +1,26 @@
 package com.proyectoIntegrador.consultorioOdontologico.dto;
 
+import com.proyectoIntegrador.consultorioOdontologico.entity.Domicilio;
+
 import java.time.LocalDate;
-import java.util.Date;
+
 
 public class PacienteDTO {
     private Integer id;
     private String nombre;
     private String apellido;
-    private String domicilio;
+    //private String domicilio;
     private String dni;
     private LocalDate fechaIngreso;
+    Domicilio domicilio;
 
+    public Domicilio getDomicilio() {
+        return domicilio;
+    }
+
+    public void setDomicilio(Domicilio domicilio) {
+        this.domicilio = domicilio;
+    }
 
     public Integer getId() {
         return id;
@@ -34,14 +44,6 @@ public class PacienteDTO {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
-    }
-
-    public String getDomicilio() {
-        return domicilio;
-    }
-
-    public void setDomicilio(String domicilio) {
-        this.domicilio = domicilio;
     }
 
     public String getDni() {

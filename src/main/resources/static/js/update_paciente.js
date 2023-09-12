@@ -16,7 +16,12 @@ window.addEventListener('load', function () {
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
             dni: document.querySelector('#dni').value,
-            domicilio: document.querySelector('#domicilio').value,
+            domicilio:{
+                        calle:document.querySelector('#calle').value,
+                        numero:document.querySelector('#numero').value,
+                        localidad:document.querySelector('#localidad').value,
+                        provincia:document.querySelector('#provincia').value,
+                        },
             fechaIngreso: document.querySelector('#fechaIngreso').value,
 
         };
@@ -53,7 +58,10 @@ window.addEventListener('load', function () {
               document.querySelector('#nombre').value = paciente.nombre;
               document.querySelector('#apellido').value = paciente.apellido;
               document.querySelector('#dni').value = paciente.dni;
-              document.querySelector('#domicilio').value = paciente.domicilio;
+              document.querySelector('#calle').value = paciente.domicilio.calle;
+              document.querySelector('#numero').value = paciente.domicilio.numero;
+              document.querySelector('#localidad').value = paciente.domicilio.localidad;
+              document.querySelector('#provincia').value = paciente.domicilio.provincia;
               document.querySelector('#fechaIngreso').value = paciente.fechaIngreso;
               //el formulario por default esta oculto y al editar se habilita
               document.querySelector('#div_paciente_updating').style.display = "block";

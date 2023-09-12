@@ -14,14 +14,25 @@ public class Paciente {
     private Integer id;
     private String nombre;
     private String apellido;
-    private String domicilio;
+    //private String domicilio;
     private String dni;
     private LocalDate fechaIngreso;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "domicilio_id")
+    private Domicilio domicilio;
 
     @OneToMany(mappedBy = "paciente", cascade = CascadeType.REMOVE)
     @JsonIgnore
     private Set<Turno> turnos;
 
+    public Domicilio getDomicilio() {
+        return domicilio;
+    }
+
+    public void setDomicilio(Domicilio domicilio) {
+        this.domicilio = domicilio;
+    }
 
     @Override
     public String toString() {
@@ -66,14 +77,6 @@ public class Paciente {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
-    }
-
-    public String getDomicilio() {
-        return domicilio;
-    }
-
-    public void setDomicilio(String domicilio) {
-        this.domicilio = domicilio;
     }
 
     public String getDni() {
