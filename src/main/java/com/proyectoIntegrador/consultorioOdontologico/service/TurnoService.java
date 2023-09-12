@@ -2,7 +2,7 @@ package com.proyectoIntegrador.consultorioOdontologico.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import com.proyectoIntegrador.consultorioOdontologico.controller.TurnoController;
+
 import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +27,7 @@ public class TurnoService implements ITurnoService{
 
     @Override
     public void agregarTurno(Turno turno) {
-
+        logger.info("El Service agregó turno: " + turno);
         turnoRepository.save(turno);
     }
 
