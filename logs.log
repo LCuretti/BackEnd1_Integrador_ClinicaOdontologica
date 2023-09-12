@@ -438,6 +438,31 @@ delete from pacientes where id=? [23503-214]]
 [2023-09-12 14:51:36] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@57d227e5
 [2023-09-12 14:51:36] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
 [2023-09-12 14:51:37] [ INFO ] [OdontologoController:58] Boorando el Odontólogo con el ID: 3
+[2023-09-12 16:58:05] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 16:58:08] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 16:58:11] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 16:58:11] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 19:12:21] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:13:33] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Javier, apellido=Rondon, dni=12345678, domicilio=CrearDomicilioDTO[calle=Jose Mármol, numero=125, localidad=Godoy Cruz, provincia=Mendoza]]
+[2023-09-12 19:14:19] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Elena, apellido=Nito, dni=52614252, domicilio=CrearDomicilioDTO[calle=Gurruchaga, numero=8520, localidad=Guaymallen, provincia=Mendoza]]
+[2023-09-12 19:14:21] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:14:57] [ INFO ] [OdontologoController:32] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Juan, apellido=Arredondo, matricula=8524]
+[2023-09-12 19:15:10] [ INFO ] [OdontologoController:32] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Fernando, apellido=Redondo, matricula=2514]
+[2023-09-12 19:15:12] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 19:15:53] [ INFO ] [TurnoService:29] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=3, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=4, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16}
+[2023-09-12 19:15:53] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2023-09-12 19:15:55] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 19:15:55] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 19:15:59] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:16:03] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 19:16:20] [ INFO ] [TurnoService:29] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=5, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16}
+[2023-09-12 19:16:20] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@2dffae89, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@24d7fc4f, fecha=2023-09-16]
+[2023-09-12 19:16:22] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 19:16:22] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 19:16:34] [ INFO ] [TurnoService:29] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=3, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=6, apellido='null', nombre='null', matricula='null}, fecha=2023-09-08}
+[2023-09-12 19:16:34] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@63c19cd9, odontologo=com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@3aff99be, fecha=2023-09-08]
+[2023-09-12 19:16:36] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 19:16:36] [ INFO ] [TurnoService:56] Listando todos los turnos
 [2023-09-12 19:14:35] [ INFO ] [PacienteController:70] Listando Pacientes
 [2023-09-12 19:14:44] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
 [2023-09-12 19:14:50] [ INFO ] [TurnoController:67] Buscando todos los turnos
@@ -450,3 +475,13 @@ delete from pacientes where id=? [23503-214]]
 [2023-09-12 19:18:31] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
 [2023-09-12 19:18:37] [ INFO ] [TurnoController:67] Buscando todos los turnos
 [2023-09-12 19:18:37] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 19:24:08] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:24:17] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 19:24:20] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 19:24:20] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 19:26:05] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:26:07] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 19:29:45] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-12 19:29:49] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 19:29:52] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-12 19:29:52] [ INFO ] [TurnoService:56] Listando todos los turnos

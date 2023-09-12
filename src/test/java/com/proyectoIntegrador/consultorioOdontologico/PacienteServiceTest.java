@@ -25,4 +25,14 @@ class PacienteServiceTest {
         Paciente pacienteRaul = pacienteService.leerPaciente(1);
         assertTrue(pacienteRaul != null);
     }
+    @Test
+    public void testModificarPaciente(){
+
+        Paciente paciente = new Paciente();
+        paciente.setNombre("Jorge");
+        paciente.setApellido("Benitez");
+        pacienteService.modificarPaciente(paciente);
+        Paciente pacienteJorge = pacienteService.leerPaciente(1);
+        assertTrue(pacienteJorge != null);
+    }
 }
