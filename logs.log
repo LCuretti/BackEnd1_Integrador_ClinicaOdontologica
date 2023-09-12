@@ -424,3 +424,17 @@ delete from pacientes where id=? [23503-214]]
 [2023-09-12 14:26:30] [ INFO ] [OdontologoController:58] Boorando el Odontólogo con el ID: 1
 [2023-09-12 14:26:33] [ INFO ] [TurnoController:67] Buscando todos los turnos
 [2023-09-12 14:26:33] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-12 14:51:23] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 14:51:29] [ INFO ] [OdontologoController:32] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Ema Cecilia, apellido=Cantarelli, matricula=65]
+[2023-09-12 14:51:31] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 14:51:33] [ INFO ] [OdontologoController:44] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@1fb15171
+[2023-09-12 14:51:36] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@57d227e5
+[2023-09-12 14:51:36] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 14:51:37] [ INFO ] [OdontologoController:58] Boorando el Odontólogo con el ID: 3
+[2023-09-12 14:51:23] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 14:51:29] [ INFO ] [OdontologoController:32] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Ema Cecilia, apellido=Cantarelli, matricula=65]
+[2023-09-12 14:51:31] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 14:51:33] [ INFO ] [OdontologoController:44] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@1fb15171
+[2023-09-12 14:51:36] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.OdontologoDTO@57d227e5
+[2023-09-12 14:51:36] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-12 14:51:37] [ INFO ] [OdontologoController:58] Boorando el Odontólogo con el ID: 3
