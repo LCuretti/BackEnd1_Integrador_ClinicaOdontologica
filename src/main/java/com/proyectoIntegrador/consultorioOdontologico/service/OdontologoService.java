@@ -1,6 +1,7 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 import com.proyectoIntegrador.consultorioOdontologico.repository.IOdontologoRepository;
 
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
@@ -36,7 +37,12 @@ public class OdontologoService implements IOdontologoService{
 
     @Override
     public void modificarOdontologo(Odontologo odontologo){
-        odontologoRepository.save(odontologo);
+        Optional<Odontologo> respuesta = odontologoRepository.findById(odontologo.getId());
+        if(respuesta.isPresent()){
+            odontologoRepository.save(odontologo); // evita crear otro registro en caso de que no exista
+        }
+
+
     }
 
     @Override

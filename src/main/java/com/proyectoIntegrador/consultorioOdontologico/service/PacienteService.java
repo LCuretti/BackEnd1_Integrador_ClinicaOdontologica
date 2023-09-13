@@ -2,6 +2,7 @@ package com.proyectoIntegrador.consultorioOdontologico.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
+import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.proyectoIntegrador.consultorioOdontologico.repository.IPacienteRepository;
@@ -38,7 +39,12 @@ public class PacienteService implements IPacienteService{
 
     @Override
     public void modificarPaciente(Paciente paciente) {
-        pacienteRepository.save(paciente);
+        Optional<Paciente> respuesta = pacienteRepository.findById(paciente.getId());
+        if(respuesta.isPresent()){
+            pacienteRepository.save(paciente); // evita crear otro registro en caso de que no exista
+        }
+
+
     }
 
     @Override

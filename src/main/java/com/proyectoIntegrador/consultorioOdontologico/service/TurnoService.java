@@ -1,7 +1,10 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
+import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +13,7 @@ import com.proyectoIntegrador.consultorioOdontologico.repository.ITurnoRepositor
 
 import java.util.List;
 import java.util.Optional;
-
+import java.util.Set;
 
 
 @Service
@@ -23,13 +26,39 @@ public class TurnoService implements ITurnoService{
     @Autowired
     ObjectMapper mapper;
 
+    @Autowired
+    private PacienteService pacienteService;
+    @Autowired
+    private OdontologoService odontologoService;
+
 
     @Override
     public void agregarTurno(Turno turno) {
-        logger.info("El Service agregó turno: " + turno);
-        turnoRepository.save(turno);
+        guardarTurno(turno);
+
     }
 
+    private void guardarTurno(Turno turno){
+        Integer odontologoId = turno.getOdontologo().getId();
+        Integer pacienteId = turno.getPaciente().getId();
+
+        boolean permitido = true;
+        List<Turno> turnos= turnoRepository.findAll();
+        if (turnos != null){
+            for (Turno t: turnos){
+                if (t.getOdontologo().getId() == odontologoId){
+                    if (t.getFecha().isEqual(turno.getFecha())){
+                        permitido = false;
+                    }
+                }
+            }
+
+        }
+        if (permitido) {
+            logger.info("El Service agregó turno: " + turno);
+            turnoRepository.save(turno);
+        }
+    }
     @Override
     public Turno leerTurno(Integer id) {
         Optional<Turno> respuesta = turnoRepository.findById(id);
@@ -41,8 +70,11 @@ public class TurnoService implements ITurnoService{
 
     @Override
     public void modificarTurno(Turno turno) {
+        Optional<Turno> respuesta = turnoRepository.findById(turno.getId());
+        if(respuesta.isPresent()){
+            guardarTurno(turno); // evita crear otro registro en casod e que no exista
+        }
 
-        turnoRepository.save(turno);
     }
 
     @Override
