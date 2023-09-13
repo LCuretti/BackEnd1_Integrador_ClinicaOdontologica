@@ -1,92 +1,80 @@
 
-[2023-09-13 16:53:23] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Juan, apellido=Gonzalez, dni=46565465, domicilio=CrearDomicilioDTO[calle=Sarmiento, numero=456, localidad=Mendoza, provincia=Mendoza]]
-[2023-09-13 16:53:31] [ INFO ] [PacienteController:70] Listando Pacientes
-[2023-09-13 16:53:44] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Marcos Hernán, apellido=López Dupertuis, dni=22654645, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
-[2023-09-13 16:54:27] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Eliana, apellido=Martinez, dni=1551515151, domicilio=CrearDomicilioDTO[calle=Jachal, numero=258, localidad=Mendoza, provincia=Mendoza]]
-[2023-09-13 16:54:31] [ INFO ] [PacienteController:70] Listando Pacientes
-[2023-09-13 16:54:34] [ INFO ] [PacienteController:43] Buscando Paciente: PacienteDTO{id=5, nombre='Eliana', apellido='Martinez', dni='1551515151', fechaIngreso=2023-09-13, domicilio=Domicilio{id=6, calle='Jachal', numero='258', localidad='Mendoza', provincia='Mendoza'}}
-[2023-09-13 16:54:58] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: PacienteDTO{id=5, nombre='Eliana', apellido='Martinez', dni='1551515151', fechaIngreso=2023-09-13, domicilio=Domicilio{id=6, calle='San juan', numero='258', localidad='Mendoza', provincia='Mendoza'}}
-[2023-09-13 16:54:58] [ INFO ] [PacienteController:70] Listando Pacientes
-[2023-09-13 16:55:21] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=sdgfh, apellido=nlk, dni=lkn, domicilio=CrearDomicilioDTO[calle=lkn, numero=lkn, localidad=lkn, provincia=lkn]]
-[2023-09-13 16:55:24] [ INFO ] [PacienteController:70] Listando Pacientes
-[2023-09-13 16:55:28] [ INFO ] [PacienteController:57] Borrando paciente con ID: 7
-[2023-09-13 16:56:34] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Juan, apellido=Denton, matricula=3213]
-[2023-09-13 16:56:44] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Alejandro , apellido=Pozo, matricula=6547465]
-[2023-09-13 16:56:49] [ ERROR] [GlobalExceptionHandler:16] JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "asdf": not a valid `java.lang.Integer` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer` from String "asdf": not a valid `java.lang.Integer` value
- at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 48] (through reference chain: com.proyectoIntegrador.consultorioOdontologico.dto.CrearOdontologoDTO["matricula"])
-[2023-09-13 16:57:58] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
-[2023-09-13 16:58:09] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=sdfg, apellido=dsfgh, matricula=351]
-[2023-09-13 16:58:47] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=sdfg, apellido=sdfg, dni=sdfg, domicilio=CrearDomicilioDTO[calle=sdfg, numero=sdfg, localidad=sdfg, provincia=sdfg]]
-[2023-09-13 16:59:01] [ INFO ] [PacienteController:70] Listando Pacientes
-[2023-09-13 16:59:11] [ INFO ] [PacienteController:57] Borrando paciente con ID: 12
-[2023-09-13 17:01:08] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
-[2023-09-13 17:01:16] [ INFO ] [OdontologoController:43] Buscando Odontólogo: Odontologo{id=10, apellido='Pozo', nombre='Alejandro ', matricula='6547465}
-[2023-09-13 17:01:27] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: Odontologo{id=10, apellido='Fasoleto', nombre='Alejandro ', matricula='6547465}
-[2023-09-13 17:01:27] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
-[2023-09-13 17:03:02] [ INFO ] [OdontologoController:58] Borrando el Odontólogo con el ID: 11
-[2023-09-13 17:03:46] [ INFO ] [TurnoService:58] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=5, apellido='null', nombre='null', matricula='null}, fecha=2023-09-08}
-[2023-09-13 17:03:46] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
-[2023-09-13 17:06:23] [ INFO ] [PacienteController:70] Listando Pacientes
-[2023-09-13 17:06:29] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
-[2023-09-13 17:06:45] [ INFO ] [TurnoService:58] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=9, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16}
-[2023-09-13 17:06:45] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=PacienteDTO{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=9, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16]
-[2023-09-13 17:07:30] [ INFO ] [TurnoController:67] Buscando todos los turnos
-[2023-09-13 17:07:30] [ INFO ] [TurnoService:88] Listando todos los turnos
-[2023-09-13 17:07:44] [ INFO ] [TurnoService:58] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=3, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=10, apellido='null', nombre='null', matricula='null}, fecha=2023-10-15}
-[2023-09-13 17:07:44] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=PacienteDTO{id=3, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=10, apellido='null', nombre='null', matricula='null}, fecha=2023-10-15]
-[2023-09-13 17:08:00] [ INFO ] [TurnoController:67] Buscando todos los turnos
-[2023-09-13 17:08:00] [ INFO ] [TurnoService:88] Listando todos los turnos
-[2023-09-13 17:08:28] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=PacienteDTO{id=3, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=9, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16]
-[2023-09-13 17:08:33] [ INFO ] [TurnoController:67] Buscando todos los turnos
-[2023-09-13 17:08:33] [ INFO ] [TurnoService:88] Listando todos los turnos
-[2023-09-13 17:12:38] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
-[2023-09-13 17:12:48] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Marcos Hernán, apellido=López Dupertuis, dni=22654645, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
-[2023-09-13 17:12:57] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Eliana, apellido=Martinez, matricula=213213]
-[2023-09-13 17:13:00] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
-[2023-09-13 17:13:03] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
-[2023-09-13 17:13:17] [ INFO ] [TurnoService:58] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16}
-[2023-09-13 17:13:17] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=PacienteDTO{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16]
-[2023-09-13 17:13:34] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
-[2023-09-13 17:13:34] [ INFO ] [TurnoService:88] Listando todos los turnos
-[2023-09-13 17:13:37] [ INFO ] [TurnoController:61] Eliminando turno con id: 4
-[2023-09-13 17:14:48] [ INFO ] [TurnoService:58] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16}
-[2023-09-13 17:14:48] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=PacienteDTO{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16]
-[2023-09-13 17:14:50] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
-[2023-09-13 17:14:50] [ INFO ] [TurnoService:88] Listando todos los turnos
-[2023-09-13 17:14:52] [ INFO ] [TurnoController:44] Buscando turno: Turno{Id=5, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22654645', fechaIngreso=2023-09-13, domicilio=Domicilio{id=2, calle='Hermano teofano', numero='2029', localidad='Mendoza', provincia='Mendoza'}}, odontologo=Odontologo{id=3, apellido='Martinez', nombre='Eliana', matricula='213213}, fecha=2023-09-16}
-[2023-09-13 17:14:57] [ INFO ] [TurnoService:58] El Service agregó turno: Turno{Id=5, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3, apellido='null', nombre='null', matricula='null}, fecha=2023-09-17}
-[2023-09-13 17:14:57] [ INFO ] [TurnoController:52] Modificando el siguiente turno: 5del paciente id 1 del odontólogo id 3
-[2023-09-13 17:14:57] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
-[2023-09-13 17:14:57] [ INFO ] [TurnoService:88] Listando todos los turnos
-[2023-09-13 17:16:51] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Marcos Hernán, apellido=López Dupertuis, dni=22653987, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
-[2023-09-13 17:53:45] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
-[2023-09-13 17:53:55] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Eliana, apellido=Martinez, matricula=12345]
-[2023-09-13 17:53:58] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
-[2023-09-13 17:54:31] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=PacienteDTO{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16]
-[2023-09-13 17:54:35] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
-[2023-09-13 17:54:35] [ INFO ] [TurnoService:88] Listando todos los turnos
-[2023-09-13 17:54:38] [ INFO ] [TurnoController:44] Buscando turno: Turno{Id=4, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22653987', fechaIngreso=2023-09-13, domicilio=Domicilio{id=2, calle='Hermano teofano', numero='2029', localidad='Mendoza', provincia='Mendoza'}}, odontologo=Odontologo{id=3, apellido='Martinez', nombre='Eliana', matricula='12345}, fecha=2023-09-16}
-[2023-09-13 17:54:44] [ INFO ] [TurnoController:52] Modificando el siguiente turno: 4del paciente id 1 del odontólogo id 3
-[2023-09-13 17:54:44] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
-[2023-09-13 17:54:44] [ INFO ] [TurnoService:88] Listando todos los turnos
-[2023-09-13 17:54:47] [ INFO ] [TurnoController:61] Eliminando turno con id: 4
-[2023-09-13 18:01:56] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Marcos Hernán, apellido=López Dupertuis, dni=1551515151, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
-[2023-09-13 18:01:59] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
-[2023-09-13 18:02:06] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Eliana, apellido=Martinez, matricula=12345]
-[2023-09-13 18:02:07] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
-[2023-09-13 18:02:18] [ INFO ] [TurnoController:34] Agregando el siguiente turno: CrearTurnoDTO[paciente=PacienteDTO{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3, apellido='null', nombre='null', matricula='null}, fecha=2023-09-16]
-[2023-09-13 18:02:22] [ INFO ] [TurnoController:68] Listando y buscando todos los turnos
-[2023-09-13 18:02:24] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=4, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='1551515151', fechaIngreso=2023-09-13, domicilio=Domicilio{id=2, calle='Hermano teofano', numero='2029', localidad='Mendoza', provincia='Mendoza'}}, odontologo=Odontologo{id=3, apellido='Martinez', nombre='Eliana', matricula='12345}, fecha=2023-09-16}
-[2023-09-13 18:02:29] [ INFO ] [TurnoController:53] Modificando el siguiente turno: 4del paciente id 1 del odontólogo id 3
-[2023-09-13 18:02:29] [ INFO ] [TurnoController:68] Listando y buscando todos los turnos
-[2023-09-13 18:02:31] [ INFO ] [TurnoController:62] Eliminando turno con id: 4
-[2023-09-13 18:07:52] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Marcos Hernán, apellido=López Dupertuis, dni=22654645, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
-[2023-09-13 18:07:56] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
-[2023-09-13 18:08:06] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Eliana, apellido=Martinez, matricula=213213]
-[2023-09-13 18:08:08] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
-[2023-09-13 18:08:19] [ INFO ] [TurnoController:34] Agregando el turno con Id: 4 del paciente id 1 del odontólogo id 3
-[2023-09-13 18:08:23] [ INFO ] [TurnoController:68] Listando y buscando todos los turnos
-[2023-09-13 18:08:24] [ INFO ] [TurnoController:45] Buscando turno: Turno{Id=4, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22654645', fechaIngreso=2023-09-13, domicilio=Domicilio{id=2, calle='Hermano teofano', numero='2029', localidad='Mendoza', provincia='Mendoza'}}, odontologo=Odontologo{id=3, apellido='Martinez', nombre='Eliana', matricula='213213}, fecha=2023-09-16}
-[2023-09-13 18:08:28] [ INFO ] [TurnoController:53] Modificando el siguiente turno: 4del paciente id 1 del odontólogo id 3
-[2023-09-13 18:08:28] [ INFO ] [TurnoController:68] Listando y buscando todos los turnos
-[2023-09-13 18:08:30] [ INFO ] [TurnoController:62] Eliminando turno con id: 4
+[2023-09-13 17:22:38] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:22:39] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:23:01] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 17:23:08] [ INFO ] [OdontologoController:58] Borrando el Odontólogo con el ID: 1
+[2023-09-13 17:23:10] [ ERROR] [GlobalExceptionHandler:16] No class com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo entity with id 1 exists!
+[2023-09-13 17:44:10] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:44:11] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:44:12] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:44:19] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 17:44:38] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Paciente Id:  100
+[2023-09-13 17:45:20] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Paciente Id:  100
+[2023-09-13 17:45:35] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Paciente Id:  100
+[2023-09-13 17:45:45] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Odontologo Id:  1
+[2023-09-13 17:45:51] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Turno Id:  1
+[2023-09-13 17:45:55] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:45:58] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:46:01] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 17:46:05] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 17:46:20] [ INFO ] [TurnoService:62] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=9, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 17:46:20] [ INFO ] [TurnoController:32] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@6d53d818, odontologo=Odontologo{id=9, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 17:46:27] [ ERROR] [GlobalExceptionHandler:16] Cannot invoke "java.lang.Integer.toString()" because the return value of "com.proyectoIntegrador.consultorioOdontologico.entity.Turno.getId()" is null
+[2023-09-13 17:48:32] [ ERROR] [GlobalExceptionHandler:16] Cannot invoke "java.lang.Integer.toString()" because the return value of "com.proyectoIntegrador.consultorioOdontologico.entity.Turno.getId()" is null
+[2023-09-13 17:48:38] [ INFO ] [TurnoController:66] Buscando todos los turnos
+[2023-09-13 17:48:38] [ INFO ] [TurnoService:100] Listando todos los turnos
+[2023-09-13 17:49:01] [ ERROR] [GlobalExceptionHandler:16] Cannot invoke "java.lang.Integer.toString()" because the return value of "com.proyectoIntegrador.consultorioOdontologico.entity.Turno.getId()" is null
+[2023-09-13 17:54:03] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:54:04] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:54:07] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:54:08] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:54:13] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 17:54:17] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 17:54:28] [ INFO ] [TurnoService:62] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=5, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 17:54:28] [ INFO ] [TurnoController:32] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@54423524, odontologo=Odontologo{id=5, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 17:54:31] [ ERROR] [GlobalExceptionHandler:16] Cannot invoke "java.lang.Integer.toString()" because the return value of "com.proyectoIntegrador.consultorioOdontologico.entity.Turno.getId()" is null
+[2023-09-13 17:22:38] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:22:39] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:23:01] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 17:23:08] [ INFO ] [OdontologoController:58] Borrando el Odontólogo con el ID: 1
+[2023-09-13 17:23:10] [ ERROR] [GlobalExceptionHandler:16] No class com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo entity with id 1 exists!
+[2023-09-13 17:44:10] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:44:11] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:44:12] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:44:19] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 17:44:38] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Paciente Id:  100
+[2023-09-13 17:45:20] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Paciente Id:  100
+[2023-09-13 17:45:35] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Paciente Id:  100
+[2023-09-13 17:45:45] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Odontologo Id:  1
+[2023-09-13 17:45:51] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recuso no encontrado. Turno Id:  1
+[2023-09-13 17:45:55] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:45:58] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:46:01] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 17:46:05] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 17:46:20] [ INFO ] [TurnoService:62] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=9, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 17:46:20] [ INFO ] [TurnoController:32] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@6d53d818, odontologo=Odontologo{id=9, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 17:46:27] [ ERROR] [GlobalExceptionHandler:16] Cannot invoke "java.lang.Integer.toString()" because the return value of "com.proyectoIntegrador.consultorioOdontologico.entity.Turno.getId()" is null
+[2023-09-13 17:48:32] [ ERROR] [GlobalExceptionHandler:16] Cannot invoke "java.lang.Integer.toString()" because the return value of "com.proyectoIntegrador.consultorioOdontologico.entity.Turno.getId()" is null
+[2023-09-13 17:48:38] [ INFO ] [TurnoController:66] Buscando todos los turnos
+[2023-09-13 17:48:38] [ INFO ] [TurnoService:100] Listando todos los turnos
+[2023-09-13 17:49:01] [ ERROR] [GlobalExceptionHandler:16] Cannot invoke "java.lang.Integer.toString()" because the return value of "com.proyectoIntegrador.consultorioOdontologico.entity.Turno.getId()" is null
+[2023-09-13 17:54:03] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:54:04] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:54:07] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:54:08] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:54:13] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 17:54:17] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 17:54:28] [ INFO ] [TurnoService:62] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=5, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 17:54:28] [ INFO ] [TurnoController:32] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@54423524, odontologo=Odontologo{id=5, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 17:54:31] [ ERROR] [GlobalExceptionHandler:16] Cannot invoke "java.lang.Integer.toString()" because the return value of "com.proyectoIntegrador.consultorioOdontologico.entity.Turno.getId()" is null
+[2023-09-13 17:59:06] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 17:59:10] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 17:59:12] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 17:59:20] [ INFO ] [TurnoService:62] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=1, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=3, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 17:59:20] [ INFO ] [TurnoController:32] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@1fa17ddc, odontologo=Odontologo{id=3, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 17:59:21] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recurso no encontrado. No hay mas turnos disponibles en esa fecha:   
+[2023-09-13 17:59:37] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recurso no encontrado. Paciente Id:  2
+[2023-09-13 17:59:48] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recurso no encontrado. Odontologo Id:  4
+[2023-09-13 18:00:06] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Ema Cecilia, apellido=Cantarelli, dni=5655, domicilio=CrearDomicilioDTO[calle=Pelagio Luna, numero=3352, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 18:00:10] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 18:00:23] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recurso no encontrado. Odontologo Id:  7

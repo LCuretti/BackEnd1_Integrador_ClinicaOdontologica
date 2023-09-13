@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
+import com.proyectoIntegrador.consultorioOdontologico.util.ResourceNotFoundException;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,7 +41,10 @@ public class TurnoService implements ITurnoService{
 
     private void guardarTurno(Turno turno){
         Integer odontologoId = turno.getOdontologo().getId();
+        Odontologo odontologo = odontologoService.leerOdontologo(odontologoId);
+
         Integer pacienteId = turno.getPaciente().getId();
+        Paciente paciente = pacienteService.leerPaciente(pacienteId);
 
         boolean permitido = true;
         List<Turno> turnos= turnoRepository.findAll();
@@ -58,27 +62,35 @@ public class TurnoService implements ITurnoService{
 
             turnoRepository.save(turno);
         }
+        else{
+            throw new ResourceNotFoundException(" ", "No hay mas turnos disponibles en esa fecha");
+        }
+
     }
     @Override
     public Turno leerTurno(Integer id) {
         Optional<Turno> respuesta = turnoRepository.findById(id);
         Turno turno = null;
-        if(respuesta.isPresent())
-            turno = mapper.convertValue(respuesta, Turno.class);
+        if(!respuesta.isPresent()){
+            throw new ResourceNotFoundException(id.toString(), "Turno Id");
+        }
+        turno = mapper.convertValue(respuesta, Turno.class);
+
         return turno;
     }
 
     @Override
     public void modificarTurno(Turno turno) {
         Optional<Turno> respuesta = turnoRepository.findById(turno.getId());
-        if(respuesta.isPresent()){
-            guardarTurno(turno); // evita crear otro registro en casod e que no exista
+        if(!respuesta.isPresent()){
+            throw new ResourceNotFoundException(turno.getId().toString(), "Turno Id"); // evita crear otro registro en casod e que no exista
         }
-
+        guardarTurno(turno);
     }
 
     @Override
     public void eliminarTurno(Integer id) {
+        if (!turnoRepository.existsById(id)) throw new ResourceNotFoundException(id.toString(), "Turno Id");
         turnoRepository.deleteById(id);
     }
 

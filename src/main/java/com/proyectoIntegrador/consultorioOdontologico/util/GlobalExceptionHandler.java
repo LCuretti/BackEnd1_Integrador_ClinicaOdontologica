@@ -1,4 +1,4 @@
-package com.proyectoIntegrador.consultorioOdontologico;
+package com.proyectoIntegrador.consultorioOdontologico.util;
 
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
