@@ -1,60 +1,47 @@
 package com.proyectoIntegrador.consultorioOdontologico;
 
-import com.proyectoIntegrador.consultorioOdontologico.dto.DomicilioDTO;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Domicilio;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
-import com.proyectoIntegrador.consultorioOdontologico.repository.IDomicilioRepository;
-import com.proyectoIntegrador.consultorioOdontologico.repository.IOdontologoRepository;
-import com.proyectoIntegrador.consultorioOdontologico.repository.IPacienteRepository;
-import com.proyectoIntegrador.consultorioOdontologico.repository.ITurnoRepository;
+import com.proyectoIntegrador.consultorioOdontologico.service.OdontologoService;
+import com.proyectoIntegrador.consultorioOdontologico.service.PacienteService;
+import com.proyectoIntegrador.consultorioOdontologico.service.TurnoService;
+import org.apache.log4j.Logger;
 
-import org.apache.log4j.PropertyConfigurator;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import javax.annotation.PostConstruct;
 import java.time.LocalDate;
 
-@SpringBootApplication
-public class ConsultorioOdontologicoApplication {
-	/*
-	@Autowired
-	private IPacienteRepository pacienteRepository;
+public class ExampleDataLoader {
 
-	@Autowired
-	private IOdontologoRepository odontologoRepository;
+	private static final Logger logger = Logger.getLogger(ExampleDataLoader.class);
+	public void loadExamples (){
 
-	@Autowired
-	private ITurnoRepository turnoRepository;
 
-	@Autowired
-	private IDomicilioRepository domicilioRepository;
+		OdontologoService odontologoService = new OdontologoService();
 
-	@PostConstruct
-	public void CargarDatosEjemplo(){
 		Odontologo odontologo = new Odontologo();
 		odontologo.setApellido("Sanchez");
 		odontologo.setNombre("Raul");
 		odontologo.setMatricula(13216354);
-		//logger.info("Guardando Odontólogo: " + odontologo);
-		odontologoRepository.save(odontologo);
+		logger.info("Guardando Odontólogo: " + odontologo);
+		odontologoService.agregarOdontologo(odontologo);
 
 		Odontologo odontologo1 = new Odontologo();
 		odontologo1.setApellido("Perez");
 		odontologo1.setNombre("Pedro");
 		odontologo1.setMatricula(132163354);
-		odontologoRepository.save(odontologo1);
+		odontologoService.agregarOdontologo(odontologo1);
 
 		Odontologo odontologo2 = new Odontologo();
 		odontologo2.setApellido("Fernandez");
 		odontologo2.setNombre("Jose");
 		odontologo2.setMatricula(1321635124);
-		odontologoRepository.save(odontologo2);
+		odontologoService.agregarOdontologo(odontologo2);
 
-		DomicilioDTO domicilio = new Domicilio();
+/*
+		PacienteService pacienteService = new PacienteService();
+
+		Domicilio domicilio = new Domicilio();
 		domicilio.setCalle("Colon");
 		domicilio.setNumero("3652234");
 		domicilio.setLocalidad("Pico Truncado");
@@ -67,9 +54,9 @@ public class ConsultorioOdontologicoApplication {
 		paciente.setDomicilio(domicilio);
 		paciente.setFechaIngreso(LocalDate.now());
 
-		pacienteRepository.save(paciente);
+		pacienteService.agregarPaciente(paciente);
 
-		/*Domicilio domicilio1 = new Domicilio();
+		Domicilio domicilio1 = new Domicilio();
 		domicilio1.setCalle("Sarmiento");
 		domicilio1.setNumero("3611154");
 		domicilio1.setLocalidad("Rosario");
@@ -82,7 +69,7 @@ public class ConsultorioOdontologicoApplication {
 		paciente1.setDomicilio(domicilio1);
 		paciente1.setFechaIngreso(LocalDate.now());
 
-		pacienteRepository.save(paciente1);
+		pacienteService.agregarPaciente(paciente1);
 
 		Domicilio domicilio2 = new Domicilio();
 		domicilio2.setCalle("Rivadavia");
@@ -97,39 +84,27 @@ public class ConsultorioOdontologicoApplication {
 		paciente2.setDomicilio(domicilio);
 		paciente2.setFechaIngreso(LocalDate.now());
 
-		pacienteRepository.save(paciente2);
+		pacienteService.agregarPaciente(paciente2);
 
-
+		TurnoService turnoService = new TurnoService();
 
 		Turno turno = new Turno();
 		turno.setFecha(LocalDate.now());
 		turno.setOdontologo(odontologo);
 		turno.setPaciente(paciente);
 
-		turnoRepository.save(turno);
+		turnoService.agregarTurno(turno);
 
 		Turno turno1 = new Turno();
 		turno1.setFecha(LocalDate.now());
 		turno1.setOdontologo(odontologo1);
 		turno1.setPaciente(paciente1);
-		turnoRepository.save(turno1);
+		turnoService.agregarTurno(turno1);
 
 		Turno turno2 = new Turno();
 		turno2.setFecha(LocalDate.now());
 		turno2.setOdontologo(odontologo2);
 		turno2.setPaciente(paciente2);
-		turnoRepository.save(turno2);
-
-
-	}*/
-
-
-
-
-	public static void main(String[] args) {
-		PropertyConfigurator.configure("log4j.properties");
-		SpringApplication.run(ConsultorioOdontologicoApplication.class, args);
-
+		turnoService.agregarTurno(turno2);*/
 	}
-
 }

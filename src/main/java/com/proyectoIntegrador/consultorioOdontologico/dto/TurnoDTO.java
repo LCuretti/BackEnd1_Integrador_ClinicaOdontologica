@@ -1,5 +1,6 @@
 package com.proyectoIntegrador.consultorioOdontologico.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 
@@ -7,9 +8,11 @@ import java.time.LocalDate;
 
 
 public class TurnoDTO {
+    @JsonProperty(index = 1)
     private Integer id;
     private Paciente paciente;
     private Odontologo odontologo;
+    @JsonProperty(index = 2)
     private LocalDate fecha;
 
     @Override
