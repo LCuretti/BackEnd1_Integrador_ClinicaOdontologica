@@ -534,6 +534,16 @@ insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?
 [2023-09-12 20:26:54] [ INFO ] [TurnoController:68] Buscando todos los turnos
 [2023-09-12 20:26:54] [ INFO ] [TurnoController:53] Modificando el siguiente turno: 1del paciente id 1 del odontólogo id 1
 [2023-09-12 20:26:54] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-13 09:24:42] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 09:25:12] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 09:25:22] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 09:25:26] [ INFO ] [OdontologoController:43] Buscando Odontólogo: Odontologo{id=1, apellido='Dozo', nombre='Tomás', matricula='123456789}
+[2023-09-13 09:25:39] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: Odontologo{id=1, apellido='Barril', nombre='Alejandro', matricula='123456789}
+[2023-09-13 09:25:39] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 12:52:06] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:05:14] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:07:55] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.DOMICILIOS(ID) ( /* key:2 */ 2, 'Cervantes', '1854', 'Godoy Cruz', 'Mendoza')"; SQL statement:
+insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
 [2023-09-12 20:58:55] [ INFO ] [PacienteController:70] Listando Pacientes
 [2023-09-12 20:59:00] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@4e5f3323
 [2023-09-12 20:59:07] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.DOMICILIOS(ID) ( /* key:1 */ 1, 'San Martin', '4561', 'Palermo', 'Bs As')"; SQL statement:
@@ -826,3 +836,29 @@ insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?
 [2023-09-13 12:35:44] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
 [2023-09-13 12:35:46] [ INFO ] [OdontologoController:58] Borrando el Odontólogo con el ID: 13
 [2023-09-13 12:35:50] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 13:10:40] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:10:47] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:11:18] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Juan, apellido=Legui, dni=12345678, domicilio=CrearDomicilioDTO[calle=San juan, numero=2315, localidad=Santiago, provincia=Santiago]]
+[2023-09-13 13:12:03] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Marcos, apellido=López Dupertuis, dni=22654645, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
+[2023-09-13 13:12:22] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Eliana, apellido=Martinez, dni=36458254, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
+[2023-09-13 13:12:27] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:12:39] [ INFO ] [PacienteController:43] Buscando Paciente: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@1e582284
+[2023-09-13 13:12:48] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@32a5f5cc
+[2023-09-13 13:12:48] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:15:21] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:16:51] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Marcos Hernán, apellido=López Dupertuis, dni=22625263, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
+[2023-09-13 13:16:58] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:17:03] [ INFO ] [PacienteController:43] Buscando Paciente: PacienteDTO{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22625263', fechaIngreso=2023-09-13, domicilio=Domicilio{id=2, calle='Hermano teofano', numero='2029', localidad='Mendoza', provincia='Mendoza'}}
+[2023-09-13 13:17:25] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: PacienteDTO{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22653987', fechaIngreso=2023-09-13, domicilio=Domicilio{id=null, calle='Hermano teofano', numero='2029', localidad='Mendoza', provincia='Mendoza'}}
+[2023-09-13 13:17:25] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:41:53] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Eliana, apellido=Martinez, dni=65464645, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
+[2023-09-13 13:42:00] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:42:06] [ INFO ] [PacienteController:43] Buscando Paciente: PacienteDTO{id=4, nombre='Eliana', apellido='Martinez', dni='65464645', fechaIngreso=2023-09-13, domicilio=Domicilio{id=5, calle='Hermano teofano', numero='2029', localidad='Mendoza', provincia='Mendoza'}}
+[2023-09-13 13:42:31] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: PacienteDTO{id=4, nombre='Eliana', apellido='Martinez', dni='65464645', fechaIngreso=2023-09-13, domicilio=Domicilio{id=null, calle='Emiclio Civit', numero='3584', localidad='Mendoza', provincia='Mendoza'}}
+[2023-09-13 13:42:31] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:43:07] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=ssdfg, apellido=sdfg, dni=sdfg, domicilio=CrearDomicilioDTO[calle=sdfg, numero=sdfg, localidad=sdfg, provincia=sdfg]]
+[2023-09-13 13:43:16] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:43:32] [ INFO ] [PacienteController:43] Buscando Paciente: PacienteDTO{id=7, nombre='ssdfg', apellido='sdfg', dni='sdfg', fechaIngreso=2023-09-13, domicilio=Domicilio{id=8, calle='sdfg', numero='sdfg', localidad='sdfg', provincia='sdfg'}}
+[2023-09-13 13:43:38] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: PacienteDTO{id=7, nombre='ssdfg', apellido='sdfg', dni='sdfg', fechaIngreso=2023-09-13, domicilio=Domicilio{id=null, calle='sdfg', numero='sdfg', localidad='sdfg', provincia='sdfg'}}
+[2023-09-13 13:43:38] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 13:43:44] [ INFO ] [PacienteController:57] Borrando paciente con ID: 7
