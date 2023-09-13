@@ -67,7 +67,7 @@ public class PacienteController {
         for(Paciente paciente: pacientes){
             pacientesDTO.add(mapper.convertValue(paciente, PacienteDTO.class));
         }
-        logger.info("Listando Pacientes");
+        logger.info("Listando y buscando los Pacientes");
         return pacientesDTO;
     }
 

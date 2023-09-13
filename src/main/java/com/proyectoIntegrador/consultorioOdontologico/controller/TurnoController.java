@@ -29,8 +29,9 @@ public class TurnoController {
 
     @PostMapping
     public ResponseEntity<?> agregarTurno(@RequestBody CrearTurnoDTO turnoDTO){
-        turnoService.agregarTurno(mapper.convertValue(turnoDTO, Turno.class));
-        logger.info("Agregando el siguiente turno: " + turnoDTO);
+        Turno turno = mapper.convertValue(turnoDTO, Turno.class);
+        turnoService.agregarTurno(turno);
+        logger.info("Agregando el turno con Id: " + turno.getId() + " del paciente id " + turno.getPaciente().getId() + " del odontólogo id " + turno.getOdontologo().getId());
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
@@ -49,7 +50,7 @@ public class TurnoController {
     public ResponseEntity<?> modificarTurno(@RequestBody TurnoDTO turnoDTO){
         Turno turno = mapper.convertValue(turnoDTO, Turno.class);
         turnoService.modificarTurno(turno);
-        logger.info("Modificando el siguiente turno: " + turnoDTO.getId() + "del paciente id " + turnoDTO.getPaciente().getId() + " del odontólogo id " + turnoDTO.getOdontologo().getId());
+        logger.info("Modificando el siguiente turno: " + turnoDTO.getId() + " del paciente id " + turnoDTO.getPaciente().getId() + " del odontólogo id " + turnoDTO.getOdontologo().getId());
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
@@ -64,7 +65,7 @@ public class TurnoController {
 
     @GetMapping
     public Collection<TurnoDTO> listarTurnos(){
-        logger.info("Buscando todos los turnos");
+        logger.info("Listando y buscando todos los turnos");
         List<Turno> turnos = turnoService.listarTurnos();
         Set<TurnoDTO> turnosDTO = new HashSet<>();
         for (Turno turno: turnos){

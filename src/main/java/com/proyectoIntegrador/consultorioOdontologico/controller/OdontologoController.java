@@ -61,7 +61,7 @@ public class OdontologoController {
 
     @GetMapping
     public Collection<OdontologoDTO> listarOdontolos(){
-        logger.info("Buscando todos los Odontólogos");
+        logger.info("Buscando y listando todos los Odontólogos");
         List<Odontologo> odontologos = odontologoService.listarOdontologos();
         Set<OdontologoDTO> odontologosDTO = new HashSet<>();
         for (Odontologo odontologo: odontologos){

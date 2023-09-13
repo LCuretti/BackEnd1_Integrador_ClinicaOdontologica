@@ -55,7 +55,7 @@ public class TurnoService implements ITurnoService{
 
         }
         if (permitido) {
-            logger.info("El Service agregó turno: " + turno);
+
             turnoRepository.save(turno);
         }
     }
@@ -85,7 +85,6 @@ public class TurnoService implements ITurnoService{
     @Override
     public List<Turno> listarTurnos() {
         List<Turno> turnos= turnoRepository.findAll();
-        logger.info("Listando todos los turnos");
         return turnos;
     }
 
