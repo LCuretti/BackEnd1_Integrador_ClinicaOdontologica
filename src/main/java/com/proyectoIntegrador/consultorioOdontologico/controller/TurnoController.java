@@ -2,7 +2,6 @@ package com.proyectoIntegrador.consultorioOdontologico.controller;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.proyectoIntegrador.consultorioOdontologico.GlobalExceptionHandler;
 import com.proyectoIntegrador.consultorioOdontologico.dto.CrearTurnoDTO;
 import com.proyectoIntegrador.consultorioOdontologico.dto.TurnoDTO;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;

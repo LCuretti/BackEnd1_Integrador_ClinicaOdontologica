@@ -6,6 +6,7 @@ import com.proyectoIntegrador.consultorioOdontologico.repository.IOdontologoRepo
 
 import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 
+import com.proyectoIntegrador.consultorioOdontologico.util.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,23 +31,28 @@ public class OdontologoService implements IOdontologoService{
     public Odontologo leerOdontologo(Integer id) {
         Optional<Odontologo> respuesta = odontologoRepository.findById(id);
         Odontologo odontologo = null;
-        if(respuesta.isPresent())
-            odontologo = mapper.convertValue(respuesta, Odontologo.class);
+        if(!respuesta.isPresent()){
+            throw new ResourceNotFoundException(id.toString(), "Odontologo Id");
+        }
+
+        odontologo = mapper.convertValue(respuesta, Odontologo.class);
         return odontologo;
     }
 
     @Override
     public void modificarOdontologo(Odontologo odontologo){
         Optional<Odontologo> respuesta = odontologoRepository.findById(odontologo.getId());
-        if(respuesta.isPresent()){
-            odontologoRepository.save(odontologo); // evita crear otro registro en caso de que no exista
+        if(!respuesta.isPresent()){
+            throw new ResourceNotFoundException(odontologo.getId().toString(), "Odontologo Id"); // evita crear otro registro en caso de que no exista
         }
-
+        odontologoRepository.save(odontologo);
 
     }
 
     @Override
     public void eliminarOdontologo(Integer id) {
+        if (!odontologoRepository.existsById(id)) throw new ResourceNotFoundException(id.toString(), "Odontologo Id");
+
         odontologoRepository.deleteById(id);
     }
 

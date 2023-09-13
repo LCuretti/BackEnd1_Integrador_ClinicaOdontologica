@@ -1,8 +1,10 @@
 package com.proyectoIntegrador.consultorioOdontologico.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.proyectoIntegrador.consultorioOdontologico.entity.Odontologo;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Paciente;
 import com.proyectoIntegrador.consultorioOdontologico.entity.Turno;
+import com.proyectoIntegrador.consultorioOdontologico.util.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.proyectoIntegrador.consultorioOdontologico.repository.IPacienteRepository;
@@ -32,23 +34,27 @@ public class PacienteService implements IPacienteService{
         Optional<Paciente> respuesta = pacienteRepository.findById(id);
 
         Paciente paciente = null;
-        if(respuesta.isPresent())
-            paciente = mapper.convertValue(respuesta, Paciente.class);
+        if(!respuesta.isPresent()) {
+            throw new ResourceNotFoundException(id.toString(), "Paciente Id");
+        }
+        paciente = mapper.convertValue(respuesta, Paciente.class);
         return paciente;
     }
 
     @Override
     public void modificarPaciente(Paciente paciente) {
         Optional<Paciente> respuesta = pacienteRepository.findById(paciente.getId());
-        if(respuesta.isPresent()){
-            pacienteRepository.save(paciente); // evita crear otro registro en caso de que no exista
+        if(!respuesta.isPresent()){
+            throw new ResourceNotFoundException(paciente.getId().toString(), "Paciente Id"); // evita crear otro registro en caso de que no exista
         }
-
+        pacienteRepository.save(paciente);
 
     }
 
     @Override
     public void eliminarPaciente(Integer id) {
+
+        if (!pacienteRepository.existsById(id)) throw new ResourceNotFoundException(id.toString(), "Paciente Id");
         pacienteRepository.deleteById(id);
     }
 
