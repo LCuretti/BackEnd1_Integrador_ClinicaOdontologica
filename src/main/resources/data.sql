@@ -1,5 +1,5 @@
 insert into odontologos(id,apellido,matricula,nombre)
-values (1, 'Dozo', 123456789, 'Tomás');
+values (1, 'Barril', 123456789, 'Alejandro');
 insert into odontologos(id,apellido,matricula,nombre)
 values (2, 'Dienton', 9874654, 'Juan');
 insert into odontologos(id,apellido,matricula,nombre)

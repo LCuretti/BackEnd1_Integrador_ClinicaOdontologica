@@ -27,7 +27,6 @@ public class OdontologoController {
     ObjectMapper mapper;
     @PostMapping
     public ResponseEntity<?> agregarOdontologo(@RequestBody CrearOdontologoDTO odontologoDTO){
-
         odontologoService.agregarOdontologo(mapper.convertValue(odontologoDTO, Odontologo.class));
         logger.info("Agregando el siguiente odontólogo: " + odontologoDTO);
         return ResponseEntity.ok(HttpStatus.OK);

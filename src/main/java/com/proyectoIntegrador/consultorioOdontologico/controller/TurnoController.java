@@ -37,7 +37,6 @@ public class TurnoController {
     @GetMapping("/{id}")
     public TurnoDTO leerTurno(@PathVariable Integer id){
         Turno turno = turnoService.leerTurno(id);
-
         TurnoDTO turnoDTO = null;
         if (turno != null){
             turnoDTO = mapper.convertValue(turno, TurnoDTO.class);
@@ -48,8 +47,8 @@ public class TurnoController {
 
     @PutMapping
     public ResponseEntity<?> modificarTurno(@RequestBody TurnoDTO turnoDTO){
-
-        turnoService.modificarTurno(mapper.convertValue(turnoDTO, Turno.class));
+        Turno turno = mapper.convertValue(turnoDTO, Turno.class);
+        turnoService.modificarTurno(turno);
         logger.info("Modificando el siguiente turno: " + turnoDTO.getId() + "del paciente id " + turnoDTO.getPaciente().getId() + " del odontólogo id " + turnoDTO.getOdontologo().getId());
         return ResponseEntity.ok(HttpStatus.OK);
     }
