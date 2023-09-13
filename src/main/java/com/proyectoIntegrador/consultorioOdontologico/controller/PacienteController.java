@@ -40,7 +40,7 @@ public class PacienteController {
         if (paciente != null){
             pacienteDTO = mapper.convertValue(paciente, PacienteDTO.class);
         }
-        logger.info("Buscando Odontólogo: " + pacienteDTO);
+        logger.info("Buscando Paciente: " + pacienteDTO);
         return pacienteDTO;
     }
 

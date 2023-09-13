@@ -17,6 +17,7 @@ window.addEventListener('load', function () {
             apellido: document.querySelector('#apellido').value,
             dni: document.querySelector('#dni').value,
             domicilio:{
+                        id:document.querySelector('#domicilio_id').value,
                         calle:document.querySelector('#calle').value,
                         numero:document.querySelector('#numero').value,
                         localidad:document.querySelector('#localidad').value,
@@ -58,6 +59,7 @@ window.addEventListener('load', function () {
               document.querySelector('#nombre').value = paciente.nombre;
               document.querySelector('#apellido').value = paciente.apellido;
               document.querySelector('#dni').value = paciente.dni;
+              document.querySelector('#domicilio_id').value = paciente.domicilio.id;
               document.querySelector('#calle').value = paciente.domicilio.calle;
               document.querySelector('#numero').value = paciente.domicilio.numero;
               document.querySelector('#localidad').value = paciente.domicilio.localidad;

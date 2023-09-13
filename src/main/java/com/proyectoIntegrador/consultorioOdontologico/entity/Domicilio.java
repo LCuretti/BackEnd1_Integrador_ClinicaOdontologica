@@ -53,6 +53,16 @@ public class Domicilio {
         this.provincia = provincia;
     }
 
+    public Domicilio() {
+    }
+
+    public Domicilio(String calle, String numero, String localidad, String provincia) {
+        this.calle = calle;
+        this.numero = numero;
+        this.localidad = localidad;
+        this.provincia = provincia;
+    }
+
     @Override
     public String toString() {
         return "Domicilio{" +

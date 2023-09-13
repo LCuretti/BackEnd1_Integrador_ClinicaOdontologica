@@ -59,4 +59,13 @@ public class Turno {
     public void setFecha(LocalDate fecha) {
         this.fecha = fecha;
     }
+
+    public Turno() {
+    }
+
+    public Turno(Paciente paciente, Odontologo odontologo, LocalDate fecha) {
+        this.paciente = paciente;
+        this.odontologo = odontologo;
+        this.fecha = fecha;
+    }
 }

@@ -46,6 +46,9 @@ public class Paciente {
                 '}';
     }
 
+    public Paciente() {
+    }
+
     public Paciente(String nombre, String apellido, String dni, LocalDate fechaIngreso, Domicilio domicilio, Set<Turno> turnos) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -103,4 +106,6 @@ public class Paciente {
     public void setFechaIngreso(LocalDate fechaIngreso) {
         this.fechaIngreso = fechaIngreso;
     }
+
+
 }

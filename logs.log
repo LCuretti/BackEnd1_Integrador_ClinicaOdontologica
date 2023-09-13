@@ -723,3 +723,106 @@ insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?
 [2023-09-13 11:23:47] [ INFO ] [TurnoService:56] Listando todos los turnos
 [2023-09-13 11:23:53] [ INFO ] [PacienteController:70] Listando Pacientes
 [2023-09-13 11:23:58] [ INFO ] [OdontologoController:65] Buscando todos los Odontólogos
+[2023-09-13 11:42:19] [ ERROR] [GlobalExceptionHandler:16] No default constructor for entity:  : com.proyectoIntegrador.consultorioOdontologico.entity.Paciente; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.proyectoIntegrador.consultorioOdontologico.entity.Paciente
+[2023-09-13 11:48:25] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 11:49:41] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 11:49:46] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-13 11:49:46] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-13 11:49:49] [ INFO ] [TurnoController:44] Buscando turno: Turno{Id=3, paciente=Paciente{id=3, nombre='Leonel', apellido='Messi', dni='35254568', fechaIngreso=2023-09-15, domicilio=Domicilio{id=3, calle='Sagrada Familia', numero='Parque Tablada', localidad='1011', provincia='Córdoba'}}, odontologo=Odontologo{id=3, apellido='Colmillo', nombre='Aníbal', matricula='65465}, fecha=2023-09-21}
+[2023-09-13 11:49:55] [ INFO ] [TurnoController:52] Modificando el siguiente turno: 3del paciente id 2 del odontólogo id 3
+[2023-09-13 11:49:55] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-13 11:49:55] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-13 11:50:03] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 11:50:07] [ INFO ] [OdontologoController:43] Buscando Odontólogo: Odontologo{id=2, apellido='Dienton', nombre='Juan', matricula='9874654}
+[2023-09-13 11:50:09] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: Odontologo{id=2, apellido='Dienton', nombre='Juan1', matricula='9874654}
+[2023-09-13 11:50:09] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 11:50:14] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 11:50:17] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@35de5d31
+[2023-09-13 11:50:21] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.DOMICILIOS(ID) ( /* key:1 */ 1, 'San Martin', '4561', 'Palermo', 'Bs As')"; SQL statement:
+insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2023-09-13 11:50:21] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 11:50:40] [ INFO ] [PacienteController:57] Borrando paciente con ID: 4
+[2023-09-13 11:50:43] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@7c4ea1e0
+[2023-09-13 11:50:47] [ ERROR] [GlobalExceptionHandler:16] A different object with the same identifier value was already associated with the session : [com.proyectoIntegrador.consultorioOdontologico.entity.Domicilio#2]; nested exception is javax.persistence.EntityExistsException: A different object with the same identifier value was already associated with the session : [com.proyectoIntegrador.consultorioOdontologico.entity.Domicilio#2]
+[2023-09-13 11:50:47] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 11:51:19] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 11:51:20] [ INFO ] [OdontologoController:43] Buscando Odontólogo: Odontologo{id=2, apellido='Dienton', nombre='Juan1', matricula='9874654}
+[2023-09-13 11:51:23] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: Odontologo{id=2, apellido='Dienton', nombre='Juan1', matricula='98746548}
+[2023-09-13 11:51:24] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 11:55:42] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 11:55:44] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@15d4bb05
+[2023-09-13 12:01:39] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:04:07] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:07:03] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:07:07] [ INFO ] [PacienteController:57] Borrando paciente con ID: 1
+[2023-09-13 12:11:25] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:12:48] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@359ab22a
+[2023-09-13 12:13:49] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:17:02] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:18:32] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:18:35] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@33ce72fd
+[2023-09-13 12:19:17] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:19:19] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@7761081
+[2023-09-13 12:19:24] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@4e1da90c
+[2023-09-13 12:19:29] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@4d0dd114
+[2023-09-13 12:19:29] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:19:49] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@73bdd693
+[2023-09-13 12:19:56] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@5da31930
+[2023-09-13 12:19:56] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:20:04] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.DOMICILIOS(ID) ( /* key:2 */ 2, 'Cervantes', '1854', 'Godoy Cruz', 'Mendoza')"; SQL statement:
+insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2023-09-13 12:20:09] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:21:12] [ INFO ] [PacienteController:57] Borrando paciente con ID: 2
+[2023-09-13 12:21:15] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 12:21:16] [ INFO ] [OdontologoController:43] Buscando Odontólogo: Odontologo{id=4, apellido='Encias', nombre='Roberto', matricula='9874654}
+[2023-09-13 12:21:19] [ INFO ] [OdontologoController:51] Modificando el siguiente odontólogo: Odontologo{id=4, apellido='Encias', nombre='Roberto2', matricula='9874654}
+[2023-09-13 12:21:19] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 12:21:29] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:3 */ 3, 'Colmillo', 65465, U&'An\\00edbal')"; SQL statement:
+insert into odontologos (apellido, matricula, nombre, id) values (?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2023-09-13 12:29:20] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:29:21] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@51526a39
+[2023-09-13 12:29:25] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@7ec3d8c6
+[2023-09-13 12:29:25] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:29:29] [ INFO ] [PacienteController:57] Borrando paciente con ID: 1
+[2023-09-13 12:29:31] [ INFO ] [PacienteController:43] Buscando Odontólogo: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@4f6abf94
+[2023-09-13 12:29:34] [ INFO ] [PacienteController:50] Modificando el siguente Paciente: com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@78b27355
+[2023-09-13 12:29:35] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:29:44] [ ERROR] [GlobalExceptionHandler:16] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.DOMICILIOS(ID) ( /* key:2 */ 2, 'Cervantes7', '1854', 'Godoy Cruz', 'Mendoza')"; SQL statement:
+insert into domicilios (calle, localidad, numero, provincia, id) values (?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2023-09-13 12:30:50] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:30:56] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Ema Cecilia, apellido=Cantarelli, dni=431241234, domicilio=CrearDomicilioDTO[calle=Pelagio Luna, numero=3352, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 12:31:01] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Curetti, dni=2314515, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Córdoba]]
+[2023-09-13 12:31:06] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:31:35] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Ema Cecilia, apellido=Cantarelli, dni=23626, domicilio=CrearDomicilioDTO[calle=Pelagio Luna3, numero=3352, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 12:31:40] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:31:43] [ INFO ] [PacienteController:57] Borrando paciente con ID: 3
+[2023-09-13 12:31:50] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Curetti, dni=3233123, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Córdoba]]
+[2023-09-13 12:33:14] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 12:33:18] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 12:33:19] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 12:33:20] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 12:33:21] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 12:33:25] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 12:33:47] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 12:33:48] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 12:33:49] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 12:33:49] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 12:33:59] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 12:34:09] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-13 12:34:09] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-13 12:34:39] [ INFO ] [TurnoService:29] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=5, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 12:34:39] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@7ee33f85, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 12:34:40] [ INFO ] [TurnoService:29] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=5, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 12:34:40] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@46292812, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 12:34:41] [ INFO ] [TurnoService:29] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=5, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 12:34:41] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@33c124cd, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 12:34:42] [ INFO ] [TurnoService:29] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=5, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 12:34:42] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@60e445db, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 12:34:43] [ INFO ] [TurnoService:29] El Service agregó turno: Turno{Id=null, paciente=Paciente{id=5, nombre='null', apellido='null', dni='null', fechaIngreso=null, domicilio=null}, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06}
+[2023-09-13 12:34:43] [ INFO ] [TurnoController:33] Agregando el siguiente turno: CrearTurnoDTO[paciente=com.proyectoIntegrador.consultorioOdontologico.dto.PacienteDTO@3db819c, odontologo=Odontologo{id=14, apellido='null', nombre='null', matricula='null}, fecha=2023-09-06]
+[2023-09-13 12:34:47] [ INFO ] [TurnoController:67] Buscando todos los turnos
+[2023-09-13 12:34:47] [ INFO ] [TurnoService:56] Listando todos los turnos
+[2023-09-13 12:35:41] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Ema Cecilia3, apellido=Cantarelli, matricula=2332]
+[2023-09-13 12:35:44] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
+[2023-09-13 12:35:46] [ INFO ] [OdontologoController:58] Borrando el Odontólogo con el ID: 13
+[2023-09-13 12:35:50] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
