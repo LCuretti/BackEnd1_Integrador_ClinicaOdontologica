@@ -78,6 +78,10 @@
 [2023-09-13 18:00:06] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Ema Cecilia, apellido=Cantarelli, dni=5655, domicilio=CrearDomicilioDTO[calle=Pelagio Luna, numero=3352, localidad=Cordoba, provincia=Cordoba]]
 [2023-09-13 18:00:10] [ INFO ] [PacienteController:70] Listando Pacientes
 [2023-09-13 18:00:23] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recurso no encontrado. Odontologo Id:  7
+[2023-09-13 18:03:43] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 18:03:59] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Curetti, dni=654654, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Córdoba]]
+[2023-09-13 18:04:02] [ INFO ] [PacienteController:70] Listando Pacientes
+[2023-09-13 18:04:06] [ INFO ] [OdontologoController:64] Buscando todos los Odontólogos
 [2023-09-13 18:12:52] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Marcos Hernán, apellido=López Dupertuis, dni=22654645, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
 [2023-09-13 18:13:01] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Eliana, apellido=Martinez, matricula=213213]
 [2023-09-13 18:13:12] [ INFO ] [TurnoController:33] Agregando el turno con Id: 4 del paciente id 1 del odontólogo id 3
@@ -98,3 +102,47 @@
 [2023-09-13 21:55:24] [ INFO ] [TurnoController:52] Modificando el siguiente turno: 4 del paciente id 1 del odontólogo id 3
 [2023-09-13 21:55:24] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
 [2023-09-13 21:59:47] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:14:38] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 22:14:42] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 22:14:43] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Sanchez, dni=25375169, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Cordoba]]
+[2023-09-13 22:14:50] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:15:10] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recurso no encontrado. Paciente Id:  100
+[2023-09-13 22:15:26] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Luis, apellido=Sanchez, matricula=25375169]
+[2023-09-13 22:16:59] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
+[2023-09-13 22:17:17] [ INFO ] [TurnoController:33] Agregando el turno con Id: 8 del paciente id 5 del odontólogo id 7
+[2023-09-13 22:17:36] [ ERROR] [ExceptionHandlerController:18] Se atajo una excepcion. Recurso no encontrado. Odontologo Id:  100
+[2023-09-13 22:18:36] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:18:38] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:18:43] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Luis, apellido=Curetti, dni=24324343, domicilio=CrearDomicilioDTO[calle=Luis Lagos Garcia, numero=1161, localidad=Cordoba, provincia=Córdoba]]
+[2023-09-13 22:18:43] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:18:45] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:18:49] [ INFO ] [PacienteController:57] Borrando paciente con ID: 5
+[2023-09-13 22:18:51] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:18:53] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:18:55] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:18:57] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
+[2023-09-13 22:19:00] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Ema Cecilia, apellido=Cantarelli, matricula=234334]
+[2023-09-13 22:19:01] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
+[2023-09-13 22:19:04] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
+[2023-09-13 22:19:07] [ INFO ] [OdontologoController:58] Borrando el Odontólogo con el ID: 11
+[2023-09-13 22:19:08] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:19:10] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
+[2023-09-13 22:19:12] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:19:15] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 22:19:23] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:19:26] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:19:29] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:19:30] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
+[2023-09-13 22:19:33] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:19:34] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 22:19:44] [ INFO ] [TurnoController:33] Agregando el turno con Id: 12 del paciente id 3 del odontólogo id 7
+[2023-09-13 22:19:44] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 22:19:46] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 22:19:48] [ INFO ] [TurnoController:44] Buscando turno: Turno{Id=12, paciente=Paciente{id=3, nombre='Luis', apellido='Sanchez', dni='25375169', fechaIngreso=2023-09-13, domicilio=Domicilio{id=4, calle='Luis Lagos Garcia', numero='1161', localidad='Cordoba', provincia='Cordoba'}}, odontologo=Odontologo{id=7, apellido='Sanchez', nombre='Luis', matricula='25375169}, fecha=1976-09-15}
+[2023-09-13 22:19:51] [ INFO ] [TurnoController:52] Modificando el siguiente turno: 12 del paciente id 3 del odontólogo id 7
+[2023-09-13 22:19:52] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 22:19:56] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:19:58] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
+[2023-09-13 22:19:59] [ INFO ] [OdontologoController:58] Borrando el Odontólogo con el ID: 7
+[2023-09-13 22:20:01] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 22:20:03] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
