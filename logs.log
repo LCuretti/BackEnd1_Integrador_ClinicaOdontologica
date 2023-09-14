@@ -85,3 +85,16 @@
 [2023-09-13 18:13:19] [ INFO ] [OdontologoController:58] Borrando el Odontólogo con el ID: 3
 [2023-09-13 18:13:25] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
 [2023-09-13 21:48:27] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 21:54:15] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 21:54:24] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 21:54:36] [ INFO ] [PacienteController:32] Agregando el siguiente Paciente: CrearPacienteDTO[nombre=Marcos Hernán, apellido=López Dupertuis, dni=22654645, domicilio=CrearDomicilioDTO[calle=Hermano teofano, numero=2029, localidad=Mendoza, provincia=Mendoza]]
+[2023-09-13 21:54:40] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes
+[2023-09-13 21:54:52] [ INFO ] [OdontologoController:31] Agregando el siguiente odontólogo: CrearOdontologoDTO[nombre=Eliana, apellido=Martinez, matricula=213213]
+[2023-09-13 21:54:55] [ INFO ] [OdontologoController:64] Buscando y listando todos los Odontólogos
+[2023-09-13 21:55:01] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 21:55:10] [ INFO ] [TurnoController:33] Agregando el turno con Id: 4 del paciente id 1 del odontólogo id 3
+[2023-09-13 21:55:14] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 21:55:19] [ INFO ] [TurnoController:44] Buscando turno: Turno{Id=4, paciente=Paciente{id=1, nombre='Marcos Hernán', apellido='López Dupertuis', dni='22654645', fechaIngreso=2023-09-13, domicilio=Domicilio{id=2, calle='Hermano teofano', numero='2029', localidad='Mendoza', provincia='Mendoza'}}, odontologo=Odontologo{id=3, apellido='Martinez', nombre='Eliana', matricula='213213}, fecha=2023-09-16}
+[2023-09-13 21:55:24] [ INFO ] [TurnoController:52] Modificando el siguiente turno: 4 del paciente id 1 del odontólogo id 3
+[2023-09-13 21:55:24] [ INFO ] [TurnoController:67] Listando y buscando todos los turnos
+[2023-09-13 21:59:47] [ INFO ] [PacienteController:70] Listando y buscando los Pacientes

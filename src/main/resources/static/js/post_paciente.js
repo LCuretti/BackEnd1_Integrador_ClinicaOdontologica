@@ -3,7 +3,14 @@ window.addEventListener('load', function () {
     //Al cargar la pagina buscamos y obtenemos el formulario donde estarán
     //los datos que el usuario cargará del nuevo paciente
     const formulario = document.querySelector('#add_new_paciente');
+    const url = '/pacientes';
+          const settings = {
+            method: 'GET'
+          }
 
+          fetch(url,settings)
+          .then(response => response.json())
+          .then(data => {})
     //Ante un submit del formulario se ejecutará la siguiente funcion
     formulario.addEventListener('submit', function (event) {
 
