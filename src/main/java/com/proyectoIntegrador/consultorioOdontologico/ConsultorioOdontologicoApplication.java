@@ -13,5 +13,6 @@ public class ConsultorioOdontologicoApplication {
 		SpringApplication.run(ConsultorioOdontologicoApplication.class, args);
 
 	}
+	//localhost:8080/swagger-ui.html //Documentacion
 
 }
